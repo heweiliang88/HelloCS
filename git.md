@@ -1,7 +1,7 @@
 ---
 title: Git基础教程
 categories:
-- 版本控制工具
+- 版本控制
 tags:
 - Git
 abbrlink: 29126

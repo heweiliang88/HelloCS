@@ -1,5 +1,5 @@
 ---
-title: babel&eslint
+title: babel&eslint的开发规范
 categories:
 - 前端
 tags:

@@ -1,5 +1,5 @@
 ---
-title: es6
+title: es6基础到高级
 categories:
 - 前端
 tags:

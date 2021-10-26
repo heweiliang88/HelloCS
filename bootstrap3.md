@@ -1,8 +1,7 @@
 ---
-title: Bootstrap3学习
+title: Bootstrap3响应式网站开发的方式
 categories:
   - 前端
-  - Bootstrap
 tags:
   - Bootstrap3
 abbrlink: 531

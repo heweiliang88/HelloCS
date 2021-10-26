@@ -1,3 +1,11 @@
+---
+title: uniapp从入门到实战
+categories:
+- 前端
+tags:
+- uniapp
+abbrlink: 58334
+---
 # uniapp
 
 > - [ ] [Uni-App从入门到实战](https://www.bilibili.com/video/BV1BJ411W7pX?from=search&seid=7278699364733577484)

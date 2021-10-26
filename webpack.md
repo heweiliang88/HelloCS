@@ -1,9 +1,8 @@
 ---
-title: webpack
+title: webpack知识储备
 categories:
-  - webpack
-tags:
   - 前端
+tags:
   - webpack
 abbrlink: 15317
 ---

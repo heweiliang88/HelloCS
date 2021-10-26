@@ -1,7 +1,7 @@
 ---
-title: JavaScript基础
+title: 全网最全的JavaScript学习路线
 categories:
-  - JavaScript
+  - 前端
 tags:
   - 前端
   - JavaScript

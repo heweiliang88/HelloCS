@@ -1,5 +1,5 @@
 ---
-title: dom&&bom&&对象
+title: dom、bom和对象手册
 categories:
 - 前端
 tags:

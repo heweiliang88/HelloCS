@@ -1,5 +1,5 @@
 ---
-title: typescript
+title: 简单了解typescript的基础语法
 categories:
 - 前端
 tags:

@@ -1,7 +1,7 @@
 ---
-title: mockjs
+title: 让mock模拟你的数据
 categories:
-- mock
+- 前端
 tags:
 - mock
 abbrlink: 14517

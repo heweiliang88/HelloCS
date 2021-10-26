@@ -1,4 +1,12 @@
-### Node Snippets
+---
+title: vscode代码块插件
+categories:
+- 前端
+tags:
+- snippets
+abbrlink: 8467
+---
+## Node Snippets
 
 - node-express
 - node-http-serve

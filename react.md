@@ -1,5 +1,5 @@
 ---
-title: react
+title: 简单了解react的相关知识
 categories:
 - 前端
 tags:

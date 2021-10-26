@@ -1,7 +1,7 @@
 ---
-title: AJAX
+title: 原生数据请求的方式ajax
 categories:
-  - AJAX
+  - 前端
 tags:
   - JavaScript
   - AJAX
@@ -9,6 +9,7 @@ tags:
 abbrlink: 19417
 ---
 # 原生 AJAX
+
 > AJAX ==  <b style="color:red;font-size:20px">A</b>synchronous <b style="color:red;font-size:20px">J</b>avascript <b style="color:red;font-size:20px">A</b>nd <b style="color:red;font-size:20px">X</b>ML 异步的JavaScript和XML
 >
 > AJAX不是新的编程语言，而是一种使用现有标准的新的方法

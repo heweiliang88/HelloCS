@@ -1,5 +1,5 @@
 ---
-title: jquery
+title: 过时的jquery，也能焕发光彩
 categories:
 - 前端
 tags:

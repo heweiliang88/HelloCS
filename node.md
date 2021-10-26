@@ -1,11 +1,10 @@
 ---
-title: node
+title: 从0开始的node学习路线
 categories:
 - 前端
-  - node
 tags:
-  - 前端
-  - node
+- 前端
+- node
 abbrlink: 7878
 
 ---
