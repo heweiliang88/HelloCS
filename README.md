@@ -1,6 +1,7 @@
 <div align="center" ><font face="微软雅黑" size="7">
-  Hello World
+  Hello CS
 </font></div>
+
 
 <img alt="今日诗词" src="https://v2.jinrishici.com/one.svg?font-size=20&spacing=2&color=black" style="max-width:100%; display: block; margin: 0 auto;">
 
@@ -33,6 +34,20 @@
     <img src="https://activity-graph.herokuapp.com/graph?username=heweiliang88&theme=minimal" />
 </div>
 ## 通识
+
+- type
+- learn
+  - git
+  - css 
+  - js
+  - vue
+  - es6
+  - mini program
+- coding  
+  - look code
+  - source code
+- leetcode
+- interview
 
 学习点
 
@@ -71,7 +86,6 @@ command ==> alt 命令
 - [ ] [itdevbooks/pdf: 编程电子书](https://github.com/itdevbooks/pdf)
 - [ ] [sindresorhus/awesome: 😎 Awesome lists about all kinds of interesting topics](https://github.com/sindresorhus/awesome)
 - [ ] [Jackpopc/CS-Books-Store: 你想要的计算机经典书籍，这里都有！](https://github.com/Jackpopc/CS-Books-Store)
-
 - [命名函数表达式探秘](http://justjavac.com/named-function-expressions-demystified.html) - kangax、为之漫笔(翻译) (原始地址无法打开，所以此处地址为justjavac博客上的备份)
 - [你不知道的Javascript](https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN)
 - [深入理解JavaScript系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
@@ -89,45 +103,34 @@ command ==> alt 命令
 - [Javascript编程指南](http://pij.robinqu.me/) ([源码](https://github.com/RobinQu/Programing-In-Javascript))
 - [JavaScript核心概念及实践](http://icodeit.org/jsccp/) (PDF)
 
+API
+
+- [ ] 
+
 ## 工具
 
 ### 命令行
 
 - wget
 - curl
-- 
+- brew
+- vim
 
 ### Mac OS
+
+常用软件
 
 - Google 
 - ITERM2
 
   - [舒适美观的mac终端, iTerm2+zsh+powerlevel9k+vim+virtualenv - 掘金](https://juejin.cn/post/6844903941528879112)
   - [eillsu/iTerm2-Chinese-Tutorial: iTerm2 中文教程](https://github.com/eillsu/iTerm2-Chinese-Tutorial)
-
 - Draw.io
 - Postman
 - Dash
 - Vscode
 - Typora
 - Sourcetree
-- GitMind
-
-### Window10
-
-
-
-### Linux 
-
-
-
-
-
-
-
-
-
-
 
 ## 笔记
 
@@ -143,44 +146,32 @@ README
 
 ### FLOW
 
-- mermaid
-- flow
-- sequence
+- 流程图、时序图(顺序图)、甘特图
+
+mermaid
+
+- [ ] [Mermaid，就像用 Markdown 码字一样，高效制作简易流图 - 少数派](https://sspai.com/post/63055)
+- [ ] [Mermaid从入门到入土——Markdown进阶语法 - 知乎](https://zhuanlan.zhihu.com/p/355997933)
+- [ ] [快速上手Mermaid流程图 · 雪之梦](https://snowdreams1006.github.io/write/mermaid-flow-chart.html)
+- [ ] [mermaid - Markdownish syntax for generating flowcharts, sequence diagrams, class diagrams, gantt charts and git graphs.](https://mermaid-js.github.io/mermaid/#/)
+
+sequence
+
+- [ ] [顺序图的语法和功能](https://plantuml.com/zh/sequence-diagram)
+- [ ] [Markdown 进阶技能：用代码画时序图 - 知乎](https://zhuanlan.zhihu.com/p/70261692)
+- [ ] [typora 画流程图、时序图(顺序图)、甘特图](https://www.runoob.com/note/47651)
+- [ ] [Sequence Diagram 时序图 | Pintora](https://pintorajs.vercel.app/zh-CN/docs/diagrams/sequence-diagram/)
 
 计算机必备绘制图
 
 - 流程图
-- 
 
 ### LateX
 
+- [ ] [一份其实很短的 LaTeX 入门文档 | 始终](https://liam.page/2014/09/08/latex-introduction/)
+- [ ] [简单高效LATEX-吴康隆-微信读书](https://weread.qq.com/web/bookDetail/37f32d9071ff9bfa37fd1c6)
 
-
-### 图片制作
-
-
-
-
-
-### 字体编辑
-
-
-
-### 文字编辑
-
-
-
-
-
-### 视频制作
-
-
-
-
-
-
-
-
+### Vim
 
 - vim vs macvim
   - vim 配置文件 
@@ -194,6 +185,22 @@ source ~/.bash_profile
 
 - vundler  
 - vim-plug [junegunn/vim-plug: Minimalist Vim Plugin Manager](https://github.com/junegunn/vim-plug)
+
+### 图片制作
+
+
+
+### 字体编辑
+
+
+
+### 文字编辑
+
+
+
+### 视频制作
+
+
 
 ## 408
 
@@ -328,7 +335,7 @@ Time
 
 ### git
 
-
+- [ ] [Git教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/896043488029600)
 
 ### html5
 
@@ -350,7 +357,7 @@ less/scss
 
 ### javaScript
 
-- [ ] [ruanyf/es6tutorial: 《ECMAScript 6入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新增的语法特性。](https://github.com/ruanyf/es6tutorial)
+
 
 ### jquery
 
@@ -380,52 +387,85 @@ less/scss
 
 Shell => Python => Java => C => C++ => JavaScript => Go => Android => Kotlin 
 
-- 了解各个编程语言的应用范围
+- 了解 各个编程语言的应用范围
 - 各编程语言的流程图
 
 ### C
 
+- [ ] [C 语言简介 - C 语言教程 - 网道](https://wangdoc.com/clang/intro.html)
+- [ ] [C Primer Plus（第6版）中文版【最新修订版】-史蒂芬·普拉达-微信读书](https://weread.qq.com/web/bookDetail/a99327c071d07b0da996784)
 
+###  C++
 
-
-
-### C++
-
-
-
-
+- [ ] [从C语言到C++](http://c.biancheng.net/cplus/c2cpp/)
+- [ ] [C++ Primer（中文版）（第5版）-Stanley B·Lippman Josée Lajoie Barbara E·Moo-微信读书](https://weread.qq.com/web/bookDetail/ff732fe072021a24ff7bb24)
 
 ### JavaScript
 
+JavaScript
+
+初级
+
 - [ ] [JavaScript教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1022910821149312)
+- [ ] [JavaScript 标准参考教程（alpha） -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/)
 
+中级
 
+- [ ] 
+
+高级
+
+- [ ] 
+
+Ajax
+
+- [ ] 
+
+Jquery 
+
+- [ ] 
+
+ES6
+
+- [ ] [ES6 入门教程 - ECMAScript 6入门](https://es6.ruanyifeng.com/)
+- [ ] [深入理解ES6-尼古拉斯·泽卡斯-微信读书](https://weread.qq.com/web/bookDetail/2333247072021a3e233f996)
+
+TypeScript
+
+- [ ] [TypeScript 入门教程](http://ts.xcatliu.com/)
+
+Node
+
+- [ ] 
 
 ### Java
 
 - [ ] [Java教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1252599548343744)
 
-
-
 ### Python
 
-- [ ] [Python教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1016959663602400)
+学习
 
+- [x] [Python教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1016959663602400)  1h
+- [x] [Python 教程 w3shool](https://www.w3school.com.cn/python/index.asp)
+- [ ] [Python编程：从入门到实践-埃里克·马瑟斯-微信读书](https://weread.qq.com/web/bookDetail/19532980715c01921954a54)
+- [ ] [jackfrued/Python-100-Days: Python - 100天从新手到大师](https://github.com/jackfrued/Python-100-Days)
+  - [ ] [Python - 100天从新手到大师简介](https://www.cntofu.com/book/160/readme.html)
 
+- [ ] [TheAlgorithms/Python: All Algorithms implemented in Python](https://github.com/TheAlgorithms/Python)
+- [ ] [vinta/awesome-python: A curated list of awesome Python frameworks, libraries, software and resources](https://github.com/vinta/awesome-python)
 
+项目
 
+- [ ] [Python开源项目排行榜, GitHub上最受欢迎的Python项目推荐 - GitHub中文社区](https://www.githubs.cn/top/Python)
 
+## 数库
 
-
-## 数据
-
-[SQL教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1177760294764384)
-
-## 测试
+- [ ] [SQL教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1177760294764384)
 
 ### SQL 
 
-
+- [ ] [SQL教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1177760294764384)
 
 ### MySQL 
 
@@ -452,6 +492,8 @@ linux => docker => nginx
 
 
 ### Nginx
+
+
 
 [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises)
 
@@ -577,9 +619,15 @@ linux => docker => nginx
 
 ## 英语
 
+### 词汇
 
 
 
+### 语法
+
+
+
+### 阅读
 
 
 
@@ -667,8 +715,6 @@ API
 | [www.typora.io](https://link.juejin.cn?target=https%3A%2F%2Fwww.typora.io) | 实用的 Markdown 写作工具，所见即所得                         |
 | [mdnice.com](https://link.juejin.cn?target=https%3A%2F%2Fmdnice.com) | 使 markdown 语法更加美观，如果你有写博客，那这个非常合适你(强烈推荐) |
 
-
-
 ### 检查测试
 
 检测Web前端兼容性或者是网站性能测试
@@ -689,13 +735,13 @@ iPhone各设备屏幕尺寸
 微信官方小程序UI样式库
 各大尺寸设备响应式屏幕效果显示
 
-
-
-
-
 [CodeSandbox: Online Code Editor and IDE for Rapid Web Development](https://codesandbox.io/)
 
 ## 博客
+
+[阮一峰的网络日志 ： 全部文章（按分类查看）](https://www.ruanyifeng.com/blog/archives.html)
+
+
 
 文档构建工具
 
