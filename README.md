@@ -104,22 +104,6 @@ command ==> alt 命令
 - [ ] [itdevbooks/pdf: 编程电子书](https://github.com/itdevbooks/pdf)
 - [ ] [sindresorhus/awesome: 😎 Awesome lists about all kinds of interesting topics](https://github.com/sindresorhus/awesome)
 - [ ] [Jackpopc/CS-Books-Store: 你想要的计算机经典书籍，这里都有！](https://github.com/Jackpopc/CS-Books-Store)
-- [命名函数表达式探秘](http://justjavac.com/named-function-expressions-demystified.html) - kangax、为之漫笔(翻译) (原始地址无法打开，所以此处地址为justjavac博客上的备份)
-- [你不知道的Javascript](https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN)
-- [深入理解JavaScript系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
-- [现代 JavaScript 教程](https://zh.javascript.info/) - Ilya Kantor
-- [学用 JavaScript 设计模式](http://www.oschina.net/translate/learning-javascript-design-patterns) - 开源中国
-- [Airbnb JavaScript 规范](https://github.com/adamlu/javascript-style-guide)
-- [ECMAScript 6 入门](http://es6.ruanyifeng.com/) - 阮一峰
-- [Google JavaScript 代码风格指南](http://bq69.com/blog/articles/script/868/google-javascript-style-guide.html)
-- [JavaScript 标准参考教程（alpha）](http://javascript.ruanyifeng.com/)
-- [javascript 的 12 个怪癖](https://github.com/justjavac/12-javascript-quirks)
-- [JavaScript 秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
-- [《JavaScript 模式》](https://github.com/jayli/javascript-patterns) (《JavaScript patterns》译本)
-- [Javascript 原理](https://web.archive.org/web/20170112164945/http://typeof.net/s/jsmech/)
-- [JavaScript Promise迷你书](http://liubin.github.io/promises-book/)
-- [Javascript编程指南](http://pij.robinqu.me/) ([源码](https://github.com/RobinQu/Programing-In-Javascript))
-- [JavaScript核心概念及实践](http://icodeit.org/jsccp/) (PDF)
 
 ## 工具
 
@@ -135,8 +119,6 @@ command ==> alt 命令
 常用软件
 
 - Google 
-  - 
-
 - ITERM2
 
   - [舒适美观的mac终端, iTerm2+zsh+powerlevel9k+vim+virtualenv - 掘金](https://juejin.cn/post/6844903941528879112)
@@ -145,8 +127,6 @@ command ==> alt 命令
 - Postman
 - Dash
 - Vscode
-  - 
-
 - Typora
 - Sourcetree
 
@@ -191,19 +171,6 @@ sequence
 
 ### Vim
 
-- vim vs macvim
-  - vim 配置文件 
-
-```bash
-vundler
-vim
-macvim
-source ~/.bash_profile
-```
-
-- vundler  
-- vim-plug [junegunn/vim-plug: Minimalist Vim Plugin Manager](https://github.com/junegunn/vim-plug)
-
 图片制作
 
 字体编辑
@@ -240,6 +207,14 @@ source ~/.bash_profile
 
 - [ ] [大话设计模式(全书28章内容提炼)_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1nD4y1R7iB?spm_id_from=333.337.search-card.all.click)
 
+### 网络安全
+
+### 编译原理
+
+### 计算机科学
+
+### 计算机科学与导论
+
 ## 进度
 
 项目管理工具
@@ -253,7 +228,6 @@ source ~/.bash_profile
 
 ## 原型
 
-- [ ] UI设计 sketch
 - [ ] [【Sketch教程】全网上万好评优质Sketch教程[全50集]_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1ov411q7kX?spm_id_from=333.337.search-card.all.click)
 - [ ] [UI设计教程 零基础学习sketch系统教程_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV17W411v7RP?spm_id_from=333.337.search-card.all.click)
 
@@ -275,12 +249,10 @@ js 数据结构与算法 => leetcode刷题 => 设计模式 => 软件工程 => �
 - web 性能权威指南
 - JavaScript语言精粹
 - 现代javascript教程（在线）https://zh.javascript.info/
-
 - **JavaScript忍者秘籍（第2版）**
 - Web开发技术丛书 HTML 5与CSS 3权威指南 上册
 - 图解css3
 - JavaScript高级程序设计
-- [ ] 你所不知道的JS 上种
 - javascirpt设计思想
 - 最简单粗暴的路线，就是红黄绿三步走，红宝书体系化，小黄书进阶语言细节，绿宝书学习，其他的作为横向扩展
 - 锋利的jquery
@@ -300,104 +272,6 @@ js 数据结构与算法 => leetcode刷题 => 设计模式 => 软件工程 => �
 - 深入浅出 node.js
 - html权威指南
 
-Time
-
-- 图解css 1天 css世界 css揭秘 css权威指南
-- javascript 高级程序设计 3天 红黄绿宝书
-- es6 标准入门 2天
-- 深入理解 ES6 2天
-- vue 权威指南 看官网 2天
-- vue 3.0从入门到实战 2天
-- typescript入门与实战 2天
-- 深入浅出webpack 2天 https://webpack.wuhaolin.cn
-- node.js从入门到精通 2天
-- 深入浅出node.js 2天
-- 微信小程序指南 微信公众号 小程序开发
-- JavaScript设计模式 2天
-- 计算机网络 HTTP权威指南 图解 http 图解 tcp/ip 4天
-- 算法 算法图解 javascript算法指南 1天漫画算法 labuladong的算法小抄
-- 剑指office 3天
-- 前端程序员面试题库 3天
-- Taro多端开发权威指南：小程序、H5与App高效开发实战
-- 微信小程序项目开发实战——用WePY、mpvue、Taro打造高效的小程序
-- Flutter企业级应用开发实战——闲鱼技术发展与创新
-- 深入React技术栈
-- React Native实战：JavaScript开发iOS和Android应用
-- https://jkchao.github.io/typescript-book-chinese/#why
-- vue.js实战
-- 前端程序员面试秘籍
-- 前端程序员面试笔试真题库
-- 剑指office
-
-### github
-
-- [x] [前言 | 千古前端图文教程](https://web.qianguyihao.com/#%E5%89%8D%E8%A8%80)
-- [ ] [labuladong/fucking-algorithm: 刷算法全靠套路，认准 labuladong 就够了！English version supported! Crack LeetCode, not only how, but also why.](https://github.com/labuladong/fucking-algorithm)
-- [ ] [justjavac/free-programming-books-zh_CN: 免费的计算机编程类中文书籍，欢迎投稿](https://github.com/justjavac/free-programming-books-zh_CN#javascript)
-- [ ] [CyC2018/CS-Notes: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计](https://github.com/CyC2018/CS-Notes)
-
-- [x] [phodal/github: GitHub 漫游指南- a Chinese ebook on how to build a good project on Github. Explore the users' behavior. Find some thing interest.](https://github.com/phodal/github)
-- [x] [phodal/fe: 《我的职业是前端工程师》 - Ebook：I'm a FrontEnd Developer](https://github.com/phodal/fe)
-- [ ] [freeCodeCamp/freeCodeCamp: freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.](https://github.com/freeCodeCamp/freeCodeCamp)
-- [ ] [EbookFoundation/free-programming-books: Freely available programming books](https://github.com/EbookFoundation/free-programming-books)
-- [ ] [jwasham/coding-interview-university: A complete computer science study plan to become a software engineer.](https://github.com/jwasham/coding-interview-university)
-  [sindresorhus/awesome: 😎 Awesome lists about all kinds of 
-- [ ] [interesting topics](https://github.com/sindresorhus/awesome)
-  [getify/You-Dont-Know-JS: A book series on JavaScript. @YDKJS on twitter.](https://github.com/getify/You-Dont-Know-JS)
-
-### git
-
-- [ ] [Git教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/896043488029600)
-
-### html5
-
-html
-
-- [ ] 
-
-html5
-
-- [ ] 
-
-### css3
-
-css3
-
-- [ ] 
-
-less/scss
-
-
-
-### javaScript
-
-- javascript
-- ajax
-- es6
-- jquery
-- typescript
-- node
-
-### vue
-
-
-
-### webpack
-
-
-
-### react
-
-
-
-### node 
-
-
-
-### typescript
-
-
-
 ## 后端
 
 Shell => Python => Java => C => C++ => JavaScript => Go => Android => Kotlin 
@@ -416,32 +290,6 @@ Shell => Python => Java => C => C++ => JavaScript => Go => Android => Kotlin
 
 - [ ] [从C语言到C++](http://c.biancheng.net/cplus/c2cpp/)
 - [ ] [C++ Primer（中文版）（第5版）-Stanley B·Lippman Josée Lajoie Barbara E·Moo-微信读书](https://weread.qq.com/web/bookDetail/ff732fe072021a24ff7bb24)
-
-### JavaScript
-
-JavaScript
-
-- [ ] [JavaScript教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1022910821149312)
-- [ ] [JavaScript 标准参考教程（alpha） -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/)
-
-Ajax
-
-- [ ] 
-
-Jquery 
-
-- [ ] 
-
-ES6
-
-- [ ] [ES6 入门教程 - ECMAScript 6入门](https://es6.ruanyifeng.com/)
-- [ ] [深入理解ES6-尼古拉斯·泽卡斯-微信读书](https://weread.qq.com/web/bookDetail/2333247072021a3e233f996)
-
-TypeScript
-
-- [ ] [TypeScript 入门教程](http://ts.xcatliu.com/)
-
-Node
 
 - [ ] 
 
@@ -477,13 +325,9 @@ Node
 
 - [ ] [SQL教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1177760294764384)
 
-### MySQL 
+### MySQL
 
-
-
-### Redis
-
-
+- [ ] 
 
 ## 运维
 
@@ -491,15 +335,15 @@ linux => docker => nginx
 
 ### Shell
 
-
+- [ ] 
 
 ### Linux
 
-
+- [ ] 
 
 ### Docker
 
-
+- [ ] 
 
 ### Nginx
 
@@ -543,11 +387,7 @@ linux => docker => nginx
 
 
 
-
-
 ### 流程图
-
-
 
 
 
@@ -636,15 +476,7 @@ linux => docker => nginx
 
 
 
-## 扩展
 
-网络安全
-
-编译原理
-
-计算机科学
-
-计算机科学与导论
 
 ## 博客
 
@@ -652,14 +484,11 @@ github action
 
 docsify
 
-
-
-
-
 hexo
 
-
-
-
-
 wordpress
+
+git book
+
+
+
