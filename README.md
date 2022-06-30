@@ -1,6 +1,4 @@
-<div align="center" ><font face="微软雅黑" size="7">
-  Hello CS
-</font></div>
+ <h1 align="center">Hello CS</h1> 
 
 <img alt="今日诗词" src="https://v2.jinrishici.com/one.svg?font-size=20&spacing=2&color=black" style="max-width:100%; display: block; margin: 0 auto;">
 
