@@ -7,55 +7,11 @@ tags:
 - 前端
 abbrlink: 33960
 ---
-
-# 学习路线
+# 知识点
 
 html
 
-教程
-
-- [ ] [HTML | MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML)
-- [ ] [HTML 教程 | 菜鸟教程](https://www.runoob.com/html/html-tutorial.html)
-- [ ] [HTML 教程](https://www.w3school.com.cn/html/index.asp)
-- [ ] [《图解HTML》第三节 HTML简介 - 掘金](https://juejin.cn/post/6940966600367407141)
-- [ ] [HTML与CSS基础总结 - 掘金](https://juejin.cn/post/6844904185163415565)
-
-- [ ] [HTML 教程 ](https://www.runoob.com/html/html-tutorial.html)
-- [ ] [HTML（超文本标记语言） | MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML)
-
-面试题
-
-- [ ] [高频前端面试题汇总之HTML篇 ](https://juejin.cn/post/6905294475539513352)
-- [ ] [2021 前端面试 | “HTML + CSS + JS”专题 - 掘金](https://juejin.cn/post/6844903848553742350)
-- [ ] [html篇--这可能是目前较为全面的html面试知识点了吧](https://juejin.cn/post/6844904180943945742)
-
-html5
-
-教程
-
-- [ ] [HTML5 教程 | 菜鸟教程](https://www.runoob.com/html/html5-intro.html)
-- [ ] [HTML5 简介](https://www.w3school.com.cn/html/html5_intro.asp)
-- [ ] [CSS3 和 HTML5 新特性一览 - 掘金](https://juejin.cn/post/6844903829679390728)
-- [ ] [10个好用的 HTML5 特性 - 掘金](https://juejin.cn/post/6881779044505878542)
-- [ ] [学习总结之HTML5剑指前端（建议收藏，图文并茂） - 掘金](https://juejin.cn/post/6844904082629459975)
-- [x] [BAT大佬推荐使用的HTML5的十个功能 - 掘金](https://juejin.cn/post/6888507535771631629)
-- [ ] [最全的HTML5知识汇总 - 前端技术交流 - 葡萄城产品技术社区](https://gcdn.grapecity.com.cn/showtopic-23856-1-3.html?utm_source=gold.xitu.io&utm_medium=referral&utm_campaign=20161214)
-- [ ] [HTML5基础 - 掘金](https://juejin.cn/post/6844903925468889102)
-
-面试题
-
-- [ ] [前端HTML5面试官和应试者一问一答 | 七日打卡 ](https://juejin.cn/post/6917044041863397383)
-- [ ] [[秃破前端面试] —— HTML5 - 掘金](https://juejin.cn/post/6844904066926002189)
-
-书籍：
-
-- [ ] Web权威指南
-
-# 知识图谱
-
-HTML
-
-- 基本文档 (Html)： 
+- 基本文档 (Html)：
 - 基本标签（Basic Tag）
 - 文本格式化（Formatting）
 - 链接（Link）
@@ -66,13 +22,11 @@ HTML
 - 框架（iframe）
 - 实体字符（Entities）
 - 颜色（Color）
-- 脚本（noscript）
 
 html5
 
 - 新增标签和废弃标签
 - 语法与基础标签
-- Div布局
 - 语义化标签与属性
 - 有序、无序、自定义列表
 - 超链接、img
@@ -80,129 +34,19 @@ html5
 - 音频、视频、多媒体
 - 浏览器内核
 
-css3
-
-- 布局：盒模型、flex布局、两/三栏布局、水平/垂直居中、BFC、清除浮动；
-- 动画
-
-
-# XHTML
-
-XHTML是以XML格式编写的HTML 可扩展超文本标记语言
-
-- 2001.1月 w3C 推荐标准
-- 与HTML4.0.1几乎是相同的
-- 更严格更纯净的HTML版本
-- 以XML应用的方式定义HTML
-- 大小写敏感
-- 所有主流浏览器的支持文档结构
-- XHTML  DOCTYPE 是强制性的
-- `<html>`中的XML namespace 属性是强制性的元素语法
-- 正确嵌套、始终关闭、必须小写、一个根元素 属性语法
-- 属性小写、属性引号包围、属性最小化是禁止的
-
 # HTML
-
-## 快速
-
-- 超文本标记语言
-- `<!DOCTYPE html>`   文档声明类型
-- head title base link meta script style 
-- div span p h1~h5  br  a （target id ）  hr   img(src width height alt  align对齐 )
-- (strong)b (em)i code sub sup small  ins(插入字) del  
-- code 代码 kbd 键盘 samp 代码样本 var  变量 pre 预格式文本
-- abbr 缩写 address 地址 bdo 文字方向 blockquote 长的引用 q 短的引用语  cite 引用 引证 dfn 定义项目 
-- 表格 table 
-  - caption 表格标题
-  - table thead tbody tfoot + tr + td
-  - table th 标题栏  tr 行  td 列 
-    - border="0"
-    - cellspacing 表格单元格之间的空间
-    - cellpadding 单元格与单元格内容之间的距离
-  - 合并单元格 作用在 td 上
-    - colspan 合并列
-    - rowspan  合并行
-  - colgroup 表格组
-  - col 列属性 
-- 列表 list
-  - 无序列表 ul li
-  - 有序列表 ol li
-  - 自定义列表 dl dt dd
-- 表单 form
-  - input 输入框
-    -  type text  文本域
-    -  password 密码
-    -  radio 单选按钮
-    -  checkbox 复选按钮
-    -  sumbit 提交按钮
-  - textarea 文本域 rows cols 
-  - fieldset
-  - legend
-  - select option 下拉列表选项
-    - `<option selected="selected">`
-  - label  标签
-  - button 按钮
-  - datalist 输入控件选项列表  keygen  密钥对  output 计算结果
-- 符号实体
-- iframe src width height  frameborder="0"  class id style title 
-  - frameset标签 HTML5 不支持 src 
-  - frame
-- media 
-  - video audio
-  - 插件
-    - object 插件  插入对象Java 小程序 PDF阅读器 Flash 播放器`object` data type height width usemap name form 
-    - embed 
-- 属性 class id style title
-
-## 插件
-
-### Emmet
-
-> [Emmet — the essential toolkit for web-developers](https://emmet.io/)
-
-## 类库
-
-### Boilerplate
-> [html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
->
-> HTML5样板是一个专业的前端模板，用于构建快速、健壮和适应性强的web应用程序或网站。
-
-```cmd
-npx create-html5-boilerplate new-site
-cd new-site
-npm install
-npm start
-```
-## 总结
-
-- 基本文档 (Html)
-- 基本标签（Basic Tag）
-	- 块级元素  `div、h1-h6、ul、ol、li、dl、table、p、hr、form`
-	- 行内元素 `span、a、img、input、span、textarea、label、select `
-- 文本格式化（Formatting）
-- 链接（Link）
-	- a
-- 图片（Images）
-	- img
-- 列表（List）
-	- 有序列表 li
-	- 无序列表 ul
-- 表格（Table） 
-	- table 、tr、td、th、
-- 表单（Form）
-- 框架（Iframe）
-- 实体字符（Entities）
-- 颜色（Color）
-- 脚本（Noscript）
 
 ## 结构
 
 #### 概述
+
 - HTML（Hyper Text Markup Language）超文本标记语言，是一种使用结构化Web网页及其内容的标记语言
 - 主要是通过HTML标签对网页中的文本、图片、声音等内容进行描述，是用来描述网页的一种语言。
 - HTML 不是一种编程语言，而是一种**标记**语言（标记语言是一套标记标签（markup tag），使用标记标签来描述网页）
 - HTML 文档（Web页面）包含 HTML标签 及 文本内容
+
 #### HTML标签（HTML tag）与 HTML 元素
+
 > HTML 标签 == HTML 元素
 
 - "HTML 标签" 和 "HTML 元素" 通常都是描述同样的意思，严格来讲, 一个 HTML 元素包含了开始标签与结束标签
@@ -211,14 +55,20 @@ npm start
 - HTML标签：第一个标签是开始标签（开放标签）== 起始标签（opening tag），第二个标签是结束标签（闭合标签）
 - 单标签：`<br/>` 、`<input /> ` 空元素：没有内容的 HTML 元素被称为空元素。空元素是在开始标签中关闭的
 - `<br/>` 在开始标签中添加斜杠，是关闭空元素的正确方法
+
 #### HTML标签的语义化
+
 HTML标签语义化：`所谓标签语义化，就是指标签的含义。`
+
 #### 标签属性
+
 ```html
-<标签名 属性1="属性值1" 属性2="属性值2" …> 内容 </标签名>  
-// 键值对 的格式   key="value"  的格式 
+<标签名 属性1="属性值1" 属性2="属性值2" …> 内容 </标签名>
+// 键值对 的格式   key="value"  的格式
 ```
+
 #### 版本
+
 | 版本      | 发布时间 |
 | :-------- | :------- |
 | HTML      | 1991     |
@@ -229,29 +79,34 @@ HTML标签语义化：`所谓标签语义化，就是指标签的含义。`
 | XHTML 1.0 | 2000     |
 | HTML5     | 2012     |
 | XHTML5    | 2013     |
+
 #### HTML与HTML5 是不是编程语言？
->**HTML 是超文本标记语言，不具备图灵完备性，应该不算编程语言。**HTML5感觉更像一个平台，而不是一个语言。html5 包含 html等基础标记，有人也把 css3 划归到html5里面，更具划时代意义的是html5 提供了很多 js 的api，通过 js 调用这些api可以做到很多完备编程语言的事情。
+
+> **HTML 是超文本标记语言，不具备图灵完备性，应该不算编程语言。**HTML5感觉更像一个平台，而不是一个语言。html5 包含 html等基础标记，有人也把 css3 划归到html5里面，更具划时代意义的是html5 提供了很多 js 的api，通过 js 调用这些api可以做到很多完备编程语言的事情。
 >
->**在可计算性理论里，如果一系列操作数据的规则（如指令集、编程语言、细胞自动机）可以用来模拟单带图灵机，那么它是图灵完备的。**这个词源于引入图灵机概念的数学家艾伦·图灵。虽然图灵机会受到储存能力的物理限制，图灵完全性通常指“具有无限存储能力的通用物理机器或编程语言”。
+> **在可计算性理论里，如果一系列操作数据的规则（如指令集、编程语言、细胞自动机）可以用来模拟单带图灵机，那么它是图灵完备的。**这个词源于引入图灵机概念的数学家艾伦·图灵。虽然图灵机会受到储存能力的物理限制，图灵完全性通常指“具有无限存储能力的通用物理机器或编程语言”。
 >
->**HTML5** **是一门编程语言吗？**最基本的一个问题是，编程语言是为了解决一个问题，通过给计算机处理问题的逻辑指令从而得到相应结果的一种人机交互语言，html5是标记语言，其本质是信息载体，并不具备处理问题逻辑的能力，所以不是编程语言。
+> **HTML5** **是一门编程语言吗？**最基本的一个问题是，编程语言是为了解决一个问题，通过给计算机处理问题的逻辑指令从而得到相应结果的一种人机交互语言，html5是标记语言，其本质是信息载体，并不具备处理问题逻辑的能力，所以不是编程语言。
+
 #### HTML组成
+
 | 组成       | 区域                                 | 标签                                    |
 | ---------- | ------------------------------------ | --------------------------------------- |
-| <!DOCTYPE> | 文档类型                             | `<!DOCTYPE html>`                       |
-| html       | 根节点                               | `<html></html>`                         |
-| title      | 文档的标题                           | `<title></title>`                       |
-| base       | 定义了页面链接标签的默认链接地址     | `<base></base>`                         |
-| meta       | 元数据                               | `<meta>`                                |
+| <!DOCTYPE> | 文档类型                             | `<!DOCTYPE html>`                     |
+| html       | 根节点                               | `<html></html>`                       |
+| title      | 文档的标题                           | `<title></title>`                     |
+| base       | 定义了页面链接标签的默认链接地址     | `<base></base>`                       |
+| meta       | 元数据                               | `<meta>`                              |
 | head       | 头部部分(包含了文档的元（meta）数据) | title(标题),meta,base,style,script,link |
 | body       | 主体部分                             | p,h,a,b,u,i,s,em,del,ins,strong,img     |
+
 ```html
 <base> // 标签描述了基本的链接地址/链接目标，该标签作为HTML文档中所有的链接标签的默认链接:
 <base href="https://www.baidu.com/" target="_black">
 <a href="s?wd=123">123</a> // https://www.baidu.com/s?wd=123
-<a href="s?wd=123">123</a>  
+<a href="s?wd=123">123</a>
 // 引入css的方法
-<link> 
+<link>
 // 标签定义了文档与外部资源之间的关系。
 // 标签通常用于链接到样式表
 <link rel="stylesheet" type="text/css" href="mystyle.css">
@@ -261,58 +116,64 @@ HTML标签语义化：`所谓标签语义化，就是指标签的含义。`
     body {background-color:yellow}
     p {color:blue}
 </style>
-<script>  
+<script>
 // 标签用于加载脚本文件，如： JavaScript。
 ```
+
 #### 文档类型<!DOCTYPE>
-~~~html
-<!DOCTYPE html> 
+
+```html
+<!DOCTYPE html>
 // doctype 声明是不区分大小写的，告诉用户和浏览器我们使用的html版本号。
 <!DOCTYPE> 标签位于文档的最前面，用于向浏览器说明当前文档使用哪种 HTML 或 XHTML 标准规范，必需在开头处使用<!DOCTYPE>标签为所有的XHTML文档指定XHTML版本和类型，只有这样浏览器才能按指定的文档类型进行解析。
-~~~
+```
+
 #### meta（元数据meta data）
 
 元信息是关于数据的信息
-meta提供有关``页面的元信息（meta-information）``，比如``针对搜索引擎和更新频度的描述和关键词``。
+meta提供有关 ``页面的元信息（meta-information）``，比如 ``针对搜索引擎和更新频度的描述和关键词``。
 
 必需的属性
 
-| 属性                                                         | 值        | 描述                                       |
-| :----------------------------------------------------------- | :-------- | :----------------------------------------- |
-| [content](https://www.w3school.com.cn/tags/tag_meta.asp#meta_prop_content) | some_text | 定义与 http-equiv 或 name 属性相关的元信息 |
-可选的属性
 | 属性                                                         | 值                                                           | 描述                                                         |
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [http-equiv](https://www.w3school.com.cn/tags/tag_meta.asp#meta_prop_http-equiv) | Content-Type、refresh、text/html;charset=UTF-8               | 把 content 属性``关联到 HTTP 头部``。                        |
-| [name](https://www.w3school.com.cn/tags/tag_meta.asp#meta_prop_name) | author 作者 、description 描述、keywords 关键字、viewport  视图 | 把 content 属性``关联到一个名称。``                          |
+| [content](https://www.w3school.com.cn/tags/tag_meta.asp#meta_prop_content) | some_text                                                    | 定义与 http-equiv 或 name 属性相关的元信息content 属性始终要和 `name 属性或 http-equiv 属性一起使用`。 |
+| 可选的属性                                                   |                                                              |                                                              |
+| 属性                                                         | 值                                                           | 描述                                                         |
+| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| [http-equiv](https://www.w3school.com.cn/tags/tag_meta.asp#meta_prop_http-equiv) | Content-Type、refresh、text/html;charset=UTF-8               | 把 content 属性 ``关联到 HTTP 头部``。                       |
+| [name](https://www.w3school.com.cn/tags/tag_meta.asp#meta_prop_name) | author 作者 、description 描述、keywords 关键字、viewport  视图 | 把 content 属性 ``关联到一个名称。``                         |
 | charset                                                      | UTF-8                                                        |                                                              |
-| [scheme](https://www.w3school.com.cn/tags/tag_meta.asp#meta_prop_scheme) | some_text                                                    | 定义用于``翻译 content 属性值的格式。用于指定要用来翻译属性值的方案。`` |
-content 属性始终要和 `name 属性或 http-equiv 属性一起使用`。
+| [scheme](https://www.w3school.com.cn/tags/tag_meta.asp#meta_prop_scheme) | some_text                                                    | 定义用于 ``翻译 content 属性值的格式。用于指定要用来翻译属性值的方案。`` |
+
 ```html
 // 每30秒钟刷新当前页面:
 <meta http-equiv="refresh" content="30">
 ```
+
 ```html
 // 模板
 <head>
-    <meta name="autor" content="">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0">
+		<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="autor" content="" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta http-equiv="refresh" content="0" />
 </head>
 ```
+
 ```html
 <meta name="autor" content="作者名">
 //meta:utf
 <meta charset="UTF-8">
-<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 //  meta:compat
 < meta http-equiv = "X-UA-Compatible" content ="IE=edge,chrome=1" />
 //标记后面竟然出现了chrome这样的值，难道IE也可以模拟chrome了明白原来不是微软增强了IE，而是谷歌做了个外挂：Google Chrome Frame（谷歌内嵌浏览器框架GCF）。这个插件可以让用户的IE浏览器外观不变，但用户在浏览网页时，实际上使用的是Google Chrome浏览器内核，而且支持IE6、7、8等多个版本的IE浏览器
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-//这是个是IE8的专用标记,用来指定IE8浏览器去模拟某个特定版本的IE浏览器的渲染方式（比如人见人烦的IE6），以此来解决部分兼容问题，例如模拟IE7的具体方式如下：  
+//这是个是IE8的专用标记,用来指定IE8浏览器去模拟某个特定版本的IE浏览器的渲染方式（比如人见人烦的IE6），以此来解决部分兼容问题，例如模拟IE7的具体方式如下：
 <meta http-equiv = "X-UA-Compatible" content = "IE=EmulateIE7" />
 //让搜索引擎更好的抓取网页
 <meta name="keywords" content="HTML,ASP,PHP,SQL">
@@ -322,9 +183,10 @@ content 属性始终要和 `name 属性或 http-equiv 属性一起使用`。
 <meta http-equiv="refresh" content="0; url=http://example.com">
 //网页的相关描述
  <meta name="description" content="bilibili是国内知名的视频弹幕网站，这里有最及时的动漫新番，最棒的ACG氛围，最有创意的Up主。大家可以在这里找到许多欢乐。">
-// 快捷键 meta:vp 
+// 快捷键 meta:vp
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
+
 ```html
 <head>
     <meta charset="utf-8">
@@ -336,87 +198,100 @@ content 属性始终要和 `name 属性或 http-equiv 属性一起使用`。
     <meta name="spm_prefix" content="333.851">
 </head>
 ```
-> [关于 < meta http-equiv = X-UA-Compatible content = IE=edge,chrome=1 />](https://blog.csdn.net/ccfxue/article/details/70739646)
-字符
+
+> [关于 &lt; meta http-equiv = X-UA-Compatible content = IE=edge,chrome=1 /&gt;](https://blog.csdn.net/ccfxue/article/details/70739646)
+> 字符
 
 ```html
 <meta charset="UTF-8">
 ```
-| 字符集编码方式 | 作用                                                         |
-| -------------- | ------------------------------------------------------------ |
+
+| 字符集编码方式 | 作用                                                                                              |
+| -------------- | ------------------------------------------------------------------------------------------------- |
 | utf-8          | 目前最常用的字符集编码方式(包含全世界所有国家需要用到的字符)。常用的字符集编码方式还有gbk和gb2312 |
-| gb2312         | 简体中文                                                     |
-| blg5           | 繁体中文                                                     |
-| gbk            | 全部中文字符    是GB2312的扩展，加入对繁体字的支持，兼容GB2312 |
-| ascii |  |
-|HTML 空元素||
+| gb2312         | 简体中文                                                                                          |
+| blg5           | 繁体中文                                                                                          |
+| gbk            | 全部中文字符    是GB2312的扩展，加入对繁体字的支持，兼容GB2312                                    |
+| ascii          |                                                                                                   |
+| HTML 空元素    |                                                                                                   |
 
 - HTML 空元素即为没有内容的HTML元素
 - HTML空元素应该在开始标签中关闭
-- 例如 `<br>`没有关闭标签  HTML空源的关闭方法是在开始标签中添加斜杠`<br/>`
+- 例如 `<br>`没有关闭标签  HTML空源的关闭方法是在开始标签中添加斜杠 `<br/>`
 - 注意：在 XHTML、XML 以及未来版本的 HTML 中，所有元素都必须被关闭，即使是空元素。
 
 #### HTML常用标签
 
 | 标签                   | 作用           |
 | ---------------------- | -------------- |
-| `<h1>~<h6>`            | 标题           |
-| `<p>`                  | 段落           |
-| `<a> anchor锚点`       | 链接           |
-| `<img>`                | 图像           |
-| `<hr/>`                | 水平线         |
-| `<br/>`                | 换行           |
+| `<h1>~<h6>`          | 标题           |
+| `<p>`                | 段落           |
+| `<a> anchor锚点`     | 链接           |
+| `<img>`              | 图像           |
+| `<hr/>`              | 水平线         |
+| ``                     | 换行           |
 | 文本格式化标签         |                |
-| `<b>、<strong>`        | 加粗、加重语气 |
-| `<i>、<em>`            | 斜体、着重文字 |
-| `sub` 、`sup`          | 下标、上标     |
-| `pre`                  | 预格式文本     |
-| `<small> <big>`        | 小号字、大号字 |
-| `<ins>`                | 插入字         |
-| `<del>`                | 删除字         |
+| `<b>、<strong>`      | 加粗、加重语气 |
+| `<i>、<em>`          | 斜体、着重文字 |
+| `sub` 、`sup`      | 下标、上标     |
+| `pre`                | 预格式文本     |
+| `<small> <big>`      | <small>小号字</small>、<big>大号字</big> |
+| `<ins>`              | <ins>插入字</ins> |
+| `<del>`              | <del>删除字</del> |
 | 计算机输出标签         |                |
-| `<code>`               | 计算机代码     |
-| `<cite>`               | 定义引用，引证 |
-| `<kbd>`                | 键盘码         |
-| `<samp>`               | 计算机代码样本 |
-| `<var>`                | 变量           |
-| `<pre>`                | 预格式文本     |
+| `<code>`             | 计算机代码     |
+| `<cite>`             | <cite>定义引用，引证</cite> |
+| `<kbd>`              | 键盘码<kbd>ctrl+C</kbd> |
+| `<samp>`             | <samp>计算机代码样本</samp> |
+| `<var>`              | 变量           |
+| `<pre>`              | 预格式文本     |
 | 引文, 引用, 及标签定义 |                |
-| `<abbr>`               | 缩写           |
-| `<address>`            | 地址           |
-| `<bdo dir="rtl">`      | 文字方向       |
-| `<blockquote>`         | 长的引用       |
-| `<q>`                  | 短的引用语     |
-| `<cite>`               | 引用、引证     |
-| `<dfn>`                | 定义项目       |
-| `<kbd>`                | 计算机代码     |
+| `<abbr>`             | 缩写           |
+| `<address>`          | 地址           |
+| `<bdo dir="rtl">`    | 文字方向       |
+| `<blockquote>`       | <blockquote>长的引用</blockquote> |
+| `<q>`                | <q>短的引用语</q> |
+| `<cite>`             | 引用、引证     |
+| `<dfn>`              | 定义项目       |
+| `<kbd>`              | 计算机代码     |
+
 ```html
 <p><bdo dir="rtl">该段落文字从右到左显示。</bdo></p>
 // dir="ltr/rtl"  必需。规定 <bdo> 元素内的文本方向。
+kbd  cite 
 ```
+
 p 标签 当渲染这些代码的时候，HTML 解释器会将连续出现的空格字符减少为一个单独的空格符。
+
 ```html
 // 两个代码片段是等价
 <p>狗 狗 很 呆 萌。</p>
 <p>狗 狗        很
        呆 萌。</p>
 ```
+
 `b` 和 `strong` 与 `i`和 `em`的区别
+
 > `<strong> `或者 `<em>`意味着你要呈现的文本是重要的，所以要突出显示。现今所有主要浏览器都能渲染各种效果的字体。不过，未来浏览器可能会支持更好的渲染效果。
+
 #### HTML中的H1-H6字体大小
+
 > - h1 { font-size: 24px;}
 > - h2 { font-size: 22px;}
 > - h3 { font-size: 18px;}
 > - h4 { font-size: 16px;}
 > - h5 { font-size: 12px;}
 > - h6 { font-size: 10px;}
+
 ## 区块
+
 > [块级元素和内联元素区别](https://blog.csdn.net/chen_zw/article/details/8713205)
 
-|          | 元素特性                                                     | 主要有                                                       |
-| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 块级元素 | 总 是独占一行，表现为另起一行开始，而且其后的元素也必须另起一行显示; width 、height、padding、margin都可控制; | `div、h1-h6、ul、ol、li、dl、table、p、hr、form`、(address , blockquote , center , dir , div , dl , fieldset , form , h1 , h2 , h3 , h4 , h5 , h6 , hr , isindex , menu , noframes , noscript , ol , p , pre , table , ul , li) |
+|          | 元素特性                                                                                                                           | 主要有                                                                                                                                                                                                                                                        |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 块级元素 | 总 是独占一行，表现为另起一行开始，而且其后的元素也必须另起一行显示; width 、height、padding、margin都可控制;                      | `div、h1-h6、ul、ol、li、dl、table、p、hr、form`、(address , blockquote , center , dir , div , dl , fieldset , form , h1 , h2 , h3 , h4 , h5 , h6 , hr , isindex , menu , noframes , noscript , ol , p , pre , table , ul , li)                             |
 | 内联元素 | 和相邻的内联元素在同一行; width、height、padding-top/padding-bottom、margin-top/margin-bottom都不可改变，就是里面文字或图片的大小; | `span、a、img、input、textarea、label、select ` 、(a , abbr , acronym , b , bdo , big , br , cite , code , dfn , em , font , i , img , input , kbd , label , q , s , samp , select , small , span , strike , strong , sub , sup ,  textarea , tt , u , var) |
+
 ## 链接
 
 链接（hyperlink）是互联网的核心。它允许用户在页面上，从一个网址跳转到另一个网址，从而把所有资源联系在一起。HTML 使用超级链接与网络上的另一个文档相连。几乎可以在所有的网页中找到链接。点击链接可以从一张页面跳转到另一张页面。
@@ -424,29 +299,34 @@ p 标签 当渲染这些代码的时候，HTML 解释器会将连续出现的空
 URL 是链接指向的地址。链接不仅可以指向另一个网页，也可以指向文本、图像、文件等资源。可以这样说，所有互联网上的资源，都可以通过链接访问
 
 - 一个未访问过的链接显示为蓝色字体并带有下划线。
-
 - 访问过的链接显示为紫色并带有下划线。
-
 - 点击链接时，链接显示为红色并带有下划线。
 
 超链接种类
 
 - 空链接
+
 ```html
 <a href="#">
-<a href="javascript:;">    
+<a href="javascript:;">
 ```
-- 图片链接 
+
+- 图片链接
+
 ```html
 <a href="">
 <img  border="10" src="" alt="HTML 教程" width="32" height="32">
 </a>
 ```
+
 - 文字链接
+
 ```html
 <a href="url">链接文本</a>
 ```
+
 - 邮件链接 `mailto`
+
 ```html
 <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">
 <a href="mailto:contact@example.com">联系我们</a>
@@ -455,25 +335,27 @@ cc：抄送
 bcc：密送
 body：邮件内容
 ```
+
 `a:target:`
 
 `_blank 新窗口`
 
-` _parent 用于从父窗口打开的子窗口 当前窗口 _self  当前窗口 _top 顶层窗口`  
+` _parent 用于从父窗口打开的子窗口 当前窗口 _self  当前窗口 _top 顶层窗口`
 
-| 属性                                                        | 值                                                           | 描述                                                         |
-| ----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| href                                                        | *URL* :mailto :tel                                           | 规定链接的目标 URL。                                         |
-| hreflang                                                    |                                                              | `hreflang`属性给出链接指向的网址所使用的语言，纯粹是提示性的，没有实际功能。 |
-| title                                                       |                                                              | 给出链接的说明信息。鼠标悬停在链接上方时，浏览器会将这个属性的值，以提示块的形式显示出来 |
-| target                                                      | `_blank(新窗口)`<br/>`_parent`上层窗口打开，这通常用于从父窗口打开的子窗口，或者`<iframe>`里面的链接。如果当前窗口没有上层窗口，这个值等同于`_self`<br/>`_self`(当前窗口 默认值)<br/>`_top`（顶层窗口打开。如果当前窗口就是顶层窗口，这个值等同于`_self`）<br/>*framename* | 使用 target 属性，你可以定义被链接的文档在何处显示。         |
-| id                                                          | id 值搭配href                                                | id属性可用于创建在一个HTML文档书签标记。                     |
-| download                                                    | filename                                                     | 指定下载链接                                                 |
-| [hreflang](https://www.runoob.com/tags/att-a-hreflang.html) | *language_code*                                              | 规定目标 URL 的基准语言。仅在 href 属性存在时使用。          |
-| [rel](https://www.runoob.com/tags/att-a-rel.html)           | alternate author bookmark help license next nofollow noreferrer prefetch prev search tag | 规定当前文档与目标 URL 之间的关系。仅在 href 属性存在时使 说明链接与当前页面的关系 |
-| type                                                        | *MIME_type*                                                  | 规定目标 URL 的 MIME 类型。仅在 href 属性存在时使用。 注：MIME = Multipurpose Internet Mail Extensions。性给出链接 URL 的 MIME 类型，比如到底是网页，还是图像或文件。它也是纯粹提示性的属性，没有实际功能 |
-| ping                                                        |                                                              | 属性指定一个网址，用户点击的时候，会向该网址发出一个 POST 请求，通常用于跟踪用户的行为 |
-| referrerpolicy                                              |                                                              | 属性用于精确设定点击链接时，浏览器发送 HTTP 头信息的`Referer`字段的行为。 |
+| 属性                                                     | 值                                                                                                                                                                                                                                                                      | 描述                                                                                                                                                                                                      |
+| -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| href                                                     | *URL* :mailto :tel                                                                                                                                                                                                                                                    | 规定链接的目标 URL。                                                                                                                                                                                      |
+| hreflang                                                 |                                                                                                                                                                                                                                                                         | `hreflang`属性给出链接指向的网址所使用的语言，纯粹是提示性的，没有实际功能。                                                                                                                            |
+| title                                                    |                                                                                                                                                                                                                                                                         | 给出链接的说明信息。鼠标悬停在链接上方时，浏览器会将这个属性的值，以提示块的形式显示出来                                                                                                                  |
+| target                                                   | `_blank(新窗口)``_parent`上层窗口打开，这通常用于从父窗口打开的子窗口，或者 `<iframe>`里面的链接。如果当前窗口没有上层窗口，这个值等同于 `_self``_self`(当前窗口 默认值)`_top`（顶层窗口打开。如果当前窗口就是顶层窗口，这个值等同于 `_self`）``*framename* | 使用 target 属性，你可以定义被链接的文档在何处显示。                                                                                                                                                      |
+| id                                                       | id 值搭配href                                                                                                                                                                                                                                                           | id属性可用于创建在一个HTML文档书签标记。                                                                                                                                                                  |
+| download                                                 | filename                                                                                                                                                                                                                                                                | 指定下载链接                                                                                                                                                                                              |
+| [hreflang](https://www.runoob.com/tags/att-a-hreflang.html) | *language_code*                                                                                                                                                                                                                                                       | 规定目标 URL 的基准语言。仅在 href 属性存在时使用。                                                                                                                                                       |
+| [rel](https://www.runoob.com/tags/att-a-rel.html)           | alternate author bookmark help license next nofollow noreferrer prefetch prev search tag                                                                                                                                                                                | 规定当前文档与目标 URL 之间的关系。仅在 href 属性存在时使 说明链接与当前页面的关系                                                                                                                        |
+| type                                                     | *MIME_type*                                                                                                                                                                                                                                                           | 规定目标 URL 的 MIME 类型。仅在 href 属性存在时使用。 注：MIME = Multipurpose Internet Mail Extensions。性给出链接 URL 的 MIME 类型，比如到底是网页，还是图像或文件。它也是纯粹提示性的属性，没有实际功能 |
+| ping                                                     |                                                                                                                                                                                                                                                                         | 属性指定一个网址，用户点击的时候，会向该网址发出一个 POST 请求，通常用于跟踪用户的行为                                                                                                                    |
+| referrerpolicy                                           |                                                                                                                                                                                                                                                                         | 属性用于精确设定点击链接时，浏览器发送 HTTP 头信息的 `Referer`字段的行为。                                                                                                                              |
+
 ```html
 <a href="" title="" target="" id="" download="" rel="" type="" ping=""></a>
 ```
@@ -486,14 +368,15 @@ body：邮件内容
 
 HTML5 不支持
 
-| 属性                                                    | 值                       | 描述                                |
-| :------------------------------------------------------ | :----------------------- | :---------------------------------- |
-| charset                                                 | *char_encoding*          | 规定目标 URL 的字符编码。           |
-| [coords](https://www.runoob.com/tags/att-a-coords.html) | *coordinates*            | 规定链接的坐标。                    |
-| [name](https://www.runoob.com/tags/att-a-name.html)     | *section_name*           | 规定锚的名称。                      |
-| [rev](https://www.runoob.com/tags/att-a-rev.html)       | *text*                   | 规定目标 URL 与当前文档之间的关系。 |
+| 属性                                                 | 值                       | 描述                                |
+| :--------------------------------------------------- | :----------------------- | :---------------------------------- |
+| charset                                              | *char_encoding*        | 规定目标 URL 的字符编码。           |
+| [coords](https://www.runoob.com/tags/att-a-coords.html) | *coordinates*          | 规定链接的坐标。                    |
+| [name](https://www.runoob.com/tags/att-a-name.html)     | *section_name*         | 规定锚的名称。                      |
+| [rev](https://www.runoob.com/tags/att-a-rev.html)       | *text*                 | 规定目标 URL 与当前文档之间的关系。 |
 | [shape](https://www.runoob.com/tags/att-a-shape.html)   | default rect circle poly | 规定链接的形状。                    |
-a 链接 id 的使用
+| a 链接 id 的使用                                     |                          |                                     |
+
 ```html
 // 同一页面
 <a id="tips">有用的提示部分</a>
@@ -502,28 +385,34 @@ a 链接 id 的使用
 <a id="tips">有用的提示部分</a>
 <a href="hello.html#tips">访问有用的提示部分</a>
 ```
+
 ## 样式
 
 HTML 样式标签
-| 标签    | 描述             |
-| :------ | :--------------- |
+
+| 标签      | 描述             |
+| :-------- | :--------------- |
 | `style` | 定义文本样式     |
 | `link`  | 定义资源引用地址 |
+
 ```html
 <p style="color:blue;margin-left:20px;">这是一个段落。</p>
 ```
+
 内部样式
+
 ```html
 <style type="text/css">
 body {background-color:yellow;}
 p {color:blue;}
 </style>
 ```
+
 外部样式
+
 ```html
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 ```
-
 
 ```html
 // rel （rel="alternate stylesheet"），默认不生效
@@ -562,38 +451,43 @@ media属性
 ## 列表
 
 HTML 列表标签
-| 标签               | 描述                 |
-| :----------------- | :------------------- |
-| `<ol>`             | 定义有序列表         |
-| `<ul>`             | 定义无序列表         |
-| `<li>`             | 定义列表项           |
-| `<dl>` list        | 定义列表             |
-| `<dt>` title       | 自定义列表项目       |
-| `<dd>` description | 定义自定列表项的描述 |
-HTML 支持有序、无序和定义列表:
+
+| 标签                           | 描述                 |
+| :----------------------------- | :------------------- |
+| `<ol>`                       | 定义有序列表         |
+| `<ul>`                       | 定义无序列表         |
+| `<li>`                       | 定义列表项           |
+| `<dl>` list                  | 定义列表             |
+| `<dt>` title                 | 自定义列表项目       |
+| `<dd>` description           | 定义自定列表项的描述 |
+| HTML 支持有序、无序和定义列表: |                      |
+
 ```html
 <ul>
 <li>Coffee</li>
 <li>Milk</li>
 </ul>
 ```
+
 ```html
 <ol>
 <li>Coffee</li>
 <li>Milk</li>
 </ol>
 ```
+
 `dl => list  dd => dd  dt=> title`
-<dl> 
+
+<dl>
 <dt>Coffee</dt>
 <dd>black hot drink</dd>
 <dd>black hot drink</dd>
 <dt>Milk</dt>
 <dd>white cold drink</dd>
-<dd>black hot drink</dd>    
+<dd>black hot drink</dd>
 </dl>
 ```html
-<dl> 
+<dl>
 <dt>Coffee</dt>
 <dd>- black hot drink</dd>
 <dt>Milk</dt>
@@ -609,16 +503,16 @@ HTML 图像
 | map  | 定义图像地图               |
 | area | 定义图像地图中的可点击区域 |
 
-| 标签            | 描述                                                         |
-| :-------------- | :----------------------------------------------------------- |
-| src             | source 源属性的值是图像的 URL 地址                           |
-| alt             | 为图像定义一串预备的可替换的文本                             |
-| width 和 height | 宽度和高度                                                   |
-| align           | 设置图片对齐方式                                             |
-| srcset 和 sizes | `srcset`属性和`sizes`属性分别解决了像素密度和屏幕大小的适配  |
-| referrerpolicy  | `<img>`导致的图片加载的 HTTP 请求，默认会带有Referer的头信息。referrerpolicy属性对这个行为进行设置。 |
-| crossorigin     | 有时，图片和网页属于不同的网站，网页加载图片就会导致跨域请求，对方服务器可能要求跨域认证。`crossorigin`属性用来告诉浏览器，是否采用跨域的形式下载图片，默认是不采用。简单说，只要打开了这个属性，HTTP 请求的头信息里面，就会加入`origin`字段，给出请求发出的域名，不打开这个属性就不加。 |
-| loading         | `懒加载` auto 、lazy、eager 浏览器的默认行为是，只要解析到`<img>`标签，就开始加载图片。对于很长的网页，这样做很浪费带宽，因为用户不一定会往下滚动，一直看到网页结束。用户很可能是点开网页，看了一会就关掉了，那些不在视口的图片加载的流量，就都浪费了。`loading`属性改变了这个行为，可以指定图片的懒加载，即图片默认不加载，只有即将滚动进入视口，变成用户可见时才会加载，这样就节省了带宽。 |
+| 标签            | 描述                                                                                                                                                                                                                                                                                                                                                                                                |
+| :-------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| src             | source 源属性的值是图像的 URL 地址                                                                                                                                                                                                                                                                                                                                                                  |
+| alt             | 为图像定义一串预备的可替换的文本                                                                                                                                                                                                                                                                                                                                                                    |
+| width 和 height | 宽度和高度                                                                                                                                                                                                                                                                                                                                                                                          |
+| align           | 设置图片对齐方式                                                                                                                                                                                                                                                                                                                                                                                    |
+| srcset 和 sizes | `srcset`属性和 `sizes`属性分别解决了像素密度和屏幕大小的适配                                                                                                                                                                                                                                                                                                                                    |
+| referrerpolicy  | `<img>`导致的图片加载的 HTTP 请求，默认会带有Referer的头信息。referrerpolicy属性对这个行为进行设置。                                                                                                                                                                                                                                                                                              |
+| crossorigin     | 有时，图片和网页属于不同的网站，网页加载图片就会导致跨域请求，对方服务器可能要求跨域认证。`crossorigin`属性用来告诉浏览器，是否采用跨域的形式下载图片，默认是不采用。简单说，只要打开了这个属性，HTTP 请求的头信息里面，就会加入 `origin`字段，给出请求发出的域名，不打开这个属性就不加。                                                                                                       |
+| loading         | `懒加载` auto 、lazy、eager 浏览器的默认行为是，只要解析到 `<img>`标签，就开始加载图片。对于很长的网页，这样做很浪费带宽，因为用户不一定会往下滚动，一直看到网页结束。用户很可能是点开网页，看了一会就关掉了，那些不在视口的图片加载的流量，就都浪费了。`loading`属性改变了这个行为，可以指定图片的懒加载，即图片默认不加载，只有即将滚动进入视口，变成用户可见时才会加载，这样就节省了带宽。 |
 
 ```html
 <img src="foo.jpg" crossorigin="anonymous">
@@ -659,9 +553,11 @@ HTML 图像
 <img src="https://gitee.com/heweiliang/FigureBed/raw/master/11~20.png">
 // 图片默认以原始大小插入网页，width属性和height属性可以指定图片显示时的宽度和高度，单位是像素或百分比。
 ```
+
 ```html
 <img src="https://api.sunweihu.com/api/bing1/api.php" width="auto" height="auto">
 ```
+
 <img src="https://api.sunweihu.com/api/bing1/api.php" width="auto" height="auto" >
 
 <img src="https://api.sunweihu.com/api/bing1/api.php" style="zoom:30%;" >
@@ -669,6 +565,7 @@ HTML 图像
 ```html
 <img src="https://gitee.com/heweiliang/FigureBed/raw/master/12.png" align="center" width="500px">
 ```
+
 <img src="https://gitee.com/heweiliang/FigureBed/raw/master/12.png" align="center" width="500px">
 
 压缩方式
@@ -693,7 +590,7 @@ HTML 图像
 
 解决方法
 
-- `<srcset>属性`：指定``多张图像，适应不同像素密度的屏幕``。它的值是一个逗号分隔的字符串，每个部分都是一张图像的 URL，后面接一个空格，然后是像素密度的描述符。
+- `<srcset>属性`：指定 ``多张图像，适应不同像素密度的屏幕``。它的值是一个逗号分隔的字符串，每个部分都是一张图像的 URL，后面接一个空格，然后是像素密度的描述符。
 
 ```html
 <img srcset="foo-320w.jpg,
@@ -703,7 +600,7 @@ HTML 图像
 // 图像 URL 后面的像素密度描述符，格式是像素密度倍数 + 字母x。1x表示单倍像素密度，可以省略。浏览器根据当前设备的像素密度，选择需要加载的图像。
 ```
 
-- `<sizes>属性`:像素密度的适配，只适合显示区域一样大小的图像。如果希望不同尺寸的屏幕，显示不同大小的图像，`srcset`属性就不够用了，必须搭配`sizes`属性。
+- `<sizes>属性`:像素密度的适配，只适合显示区域一样大小的图像。如果希望不同尺寸的屏幕，显示不同大小的图像，`srcset`属性就不够用了，必须搭配 `sizes`属性。
 
 ```html
 <img srcset="foo-160.jpg 160w,
@@ -732,50 +629,50 @@ HTML 图像
 </picture>
 ```
 
-- ​	格式
+- 格式
 
-	```html
-	<picture>
-	  <source type="image/svg+xml" srcset="logo.xml">
-	  <source type="image/webp" srcset="logo.webp"> 
-	  <img src="logo.png" alt="ACME Corp">
-	</picture>
-	```
+  ```html
+  <picture>
+    <source type="image/svg+xml" srcset="logo.xml">
+    <source type="image/webp" srcset="logo.webp">
+    <img src="logo.png" alt="ACME Corp">
+  </picture>
+  ```
 
 ## 表格
 
 概念
+
 - 标题 `caption`
 - 行 `row`
 - 列 `col`
 - 单元格
 - `<colgroup>` 和 `<col>` 设置样式
 - `align`对齐方式
-- `dir`
-| 标签                 | 描述         |
-| -------------------- | ------------ |
-| `<table>`            | 表格         |
-| tr td th             |              |
-| `<tr>`               | `row`行      |
-| `<td>`               | 表格单元     |
-| `<th>`               | `head`表头   |
-| thread tbody tfoot   |              |
-| `<thread>`           | 表格的页眉   |
-| `<tbody>`            | 表格的主体   |
-| `<tfoot>`            | 表格的页脚   |
-| caption colgroup col |              |
-| `<caption>`          | 表格的标题   |
-| `<colgroup>`         | 表格列的组   |
-| `<col>`              | 表格列的属性 |
-表格
+- `dir`| 标签                 | 描述         |
+  | -------------------- | ------------ |
+  | `<table>`          | 表格         |
+  | tr td th             |              |
+  | `<tr>`             | `row`行    |
+  | `<td>`             | 表格单元     |
+  | `<th>`             | `head`表头 |
+  | thread tbody tfoot   |              |
+  | `<thread>`         | 表格的页眉   |
+  | `<tbody>`          | 表格的主体   |
+  | `<tfoot>`          | 表格的页脚   |
+  | caption colgroup col |              |
+  | `<caption>`        | 表格的标题   |
+  | `<colgroup>`       | 表格列的组   |
+  | `<col>`            | 表格列的属性 |
+  | 表格                 |              |
 - x 为 行 row，y 为列 column
-- 没有边框的表格 `<table border="0">` 或者 CSS`table:{border:0;}`
+- 没有边框的表格 `<table border="0">` 或者 CSS `table:{border:0;}`
 - 水平标题或者垂直标题
-	- 水平标题 `<tr><th> + <tr><td>`
-	- 垂直标题 `<tr><th><td></tr>`
+  - 水平标题 `<tr><th> + <tr><td>`
+  - 垂直标题 `<tr><th><td></tr>`
 - 单元格内可以添加其他标签
-- 合并单元格 ：跨行`rowspan="跨行数"`或跨列`colspan="跨列数"`的表格单元格 
-- 带标题的表格`caption`
+- 合并单元格 ：跨行 `rowspan="跨行数"`或跨列 `colspan="跨列数"`的表格单元格
+- 带标题的表格 `caption`
 - 单元格边距（Cell padding）`cellpadding="0"`  单元格边框与单元格内容之间的空间，（单元格里面的）
 - 单元格间距（Cell spacing）`cellspacing="0"`表格单元格之间的空间（单元格与单元格之间的）
 
@@ -858,13 +755,13 @@ HTML 图像
 <table border="1">
 <tr>
   <th>First Name:</th>
-  <td>Bill Gates</td> 
+  <td>Bill Gates</td>
   <td>Bill Gates</td>
 </tr>
 <tr>
   <th rowspan="2">Telephone:</th>
   <td>555 77 854</td>
-  <td>555 77 854</td>  
+  <td>555 77 854</td>
 </tr>
 <tr>
   <td>555 77 855</td>
@@ -929,42 +826,42 @@ HTML表单用于收集不同类型的用户输入
 表单组成
 
 - 表单域 `form`
-- 提示信息`label`
+- 提示信息 `label`
 - 表单控件（表单元素）`input、select、textarea`
-	- 输入框 ``input ``
-	- 下拉菜单 `select` 
-	- 文本域 `textarea`
+  - 输入框 ``input ``
+  - 下拉菜单 `select`
+  - 文本域 `textarea`
 
-| 标签         | 属性                                                         | 描述                                    |
-| ------------ | ------------------------------------------------------------ | --------------------------------------- |
-| `<form>`     | action=“URL”(规定当提交表单时向何处发送表单数据。)<br/>name(名称)、<br/>method(get、post)(规定用于发送表单数据的 HTTP 方法)、<br/>target（`_black、_self、_parent、_top`）、<br/>enctype （`application/x-www-form-urlencoded、multipart/form-data、text/plain`)(规定在向服务器发送表单数据之前如何对其进行编码。（适用于 method="post" 的情况）)<br/>accept="*MIME_type*"(HTML5 不支持。规定服务器接收到的文件的类型。（文件是通过文件上传提交的）)<br/>navalidate="navalidate"(如果使用该属性，则提交表单时不进行验证。)<br/>accept-charset(规定服务器可处理的表单数据字符集。)<br/>autocomplete="on/off"(规定是否启用表单的自动完成功能。) | 用户输入的表单                          |
-| `<input>`    | type="text(文本域)/password(密码)/radio(单选按钮)/checkbox(复选框)/submit(提交按钮)/button(按钮)/reset(重置按钮)/file(文件上传)email(电子邮箱)" | 输入域                                  |
-| `<textarea>` | name（名称）、rows="10"(文本区域内可见的行数。)、cols="30"(文本区域内可见的宽度)、maxlength(规定文本区域允许的最大字符数)、disabled="disabled"(规定禁用文本区域)、readonly | 文本域                                  |
-| `<label>`    | for="element_id"(规定 label 与哪个表单元素绑定)、<br/>form="form_id"(规定 label 字段所属的一个或多个表单。) | 定义了`input`元素的标签，一般输入为标题 |
-| `<filedset>` |                                                              | 一组相关的表单元素，并使用外框包含起来  |
-| `<legend>`   |                                                              | `filedset`元素的标题                    |
-| `<select>`   | option、optgroup                                             | 下拉选项列表                            |
-| `<optgroup>` |                                                              | 选项组                                  |
-| `<option>`   |                                                              | 下拉列表中的选项                        |
-| `<button>`   | name(名称)、type="button/reset/submit"(按钮类型)、value(按钮的初始值，可由脚本修改) | 定义一个点击按钮                        |
-| `<datalist>` |                                                              | 指定一个预先定义的输入控件选项列表      |
-| `<keygen>`   | 从web标准中删除                                              | 定义了表单的密钥对生成器字段            |
-| `<output>`   |                                                              | 定义一个计算结果                        |
-
+| 标签           | 属性                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | 描述                                       |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| `<form>`     | action=“URL”(规定当提交表单时向何处发送表单数据。)``name(名称)、``method(get、post)(规定用于发送表单数据的 HTTP 方法)、``target（`_black、_self、_parent、_top`）、``enctype （`application/x-www-form-urlencoded、multipart/form-data、text/plain`)(规定在向服务器发送表单数据之前如何对其进行编码。（适用于 method="post" 的情况）)``accept="*MIME_type*"(HTML5 不支持。规定服务器接收到的文件的类型。（文件是通过文件上传提交的）)``navalidate="navalidate"(如果使用该属性，则提交表单时不进行验证。)``accept-charset(规定服务器可处理的表单数据字符集。)``autocomplete="on/off"(规定是否启用表单的自动完成功能。) | 用户输入的表单                             |
+| `<input>`    | type="text(文本域)/password(密码)/radio(单选按钮)/checkbox(复选框)/submit(提交按钮)/button(按钮)/reset(重置按钮)/file(文件上传)email(电子邮箱)"                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 输入域                                     |
+| `<textarea>` | name（名称）、rows="10"(文本区域内可见的行数。)、cols="30"(文本区域内可见的宽度)、maxlength(规定文本区域允许的最大字符数)、disabled="disabled"(规定禁用文本区域)、readonly                                                                                                                                                                                                                                                                                                                                                                                                                                                | 文本域                                     |
+| `<label>`    | for="element_id"(规定 label 与哪个表单元素绑定)、``form="form_id"(规定 label 字段所属的一个或多个表单。)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | 定义了 `input`元素的标签，一般输入为标题 |
+| `<filedset>` |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 一组相关的表单元素，并使用外框包含起来     |
+| `<legend>`   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | `filedset`元素的标题                     |
+| `<select>`   | option、optgroup                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | 下拉选项列表                               |
+| `<optgroup>` |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 选项组                                     |
+| `<option>`   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 下拉列表中的选项                           |
+| `<button>`   | name(名称)、type="button/reset/submit"(按钮类型)、value(按钮的初始值，可由脚本修改)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | 定义一个点击按钮                           |
+| `<datalist>` |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 指定一个预先定义的输入控件选项列表         |
+| `<keygen>`   | 从web标准中删除                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 定义了表单的密钥对生成器字段               |
+| `<output>`   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 定义一个计算结果                           |
 
 ### form
 
-| 属性                                                         | 值                                                           | 描述                                                         |
-| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [accept](https://www.runoob.com/tags/att-form-accept.html)   | *MIME_type*                                                  | HTML5 不支持。规定服务器接收到的文件的类型。（文件是通过文件上传提交的） |
-| [accept-charset](https://www.runoob.com/tags/att-form-accept-charset.html) | *character_set*                                              | 规定服务器可处理的表单数据字符集。                           |
-| [action](https://www.runoob.com/tags/att-form-action.html)   | *URL*                                                        | 规定当提交表单时向何处发送表单数据。                         |
-| [autocomplete](https://www.runoob.com/tags/att-form-autocomplete.html)**New** | on off                                                       | 规定是否启用表单的自动完成功能。                             |
-| [enctype](https://www.runoob.com/tags/att-form-enctype.html) | application/x-www-form-urlencoded multipart/form-data text/plain | 规定在向服务器发送表单数据之前如何对其进行编码。（适用于 method="post" 的情况） |
-| [method](https://www.runoob.com/tags/att-form-method.html)   | get post                                                     | 规定用于发送表单数据的 HTTP 方法。                           |
-| [name](https://www.runoob.com/tags/att-form-name.html)       | *text*                                                       | 规定表单的名称。                                             |
-| [novalidate](https://www.runoob.com/tags/att-form-novalidate.html)**New** | novalidate                                                   | 如果使用该属性，则提交表单时不进行验证。                     |
-| [target](https://www.runoob.com/tags/att-form-target.html)   | _blank _self _parent _top                                    | 规定在何处打开 action URL。                                  |
+| 属性                                                                             | 值                                                               | 描述                                                                            |
+| :------------------------------------------------------------------------------- | :--------------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| [accept](https://www.runoob.com/tags/att-form-accept.html)                          | *MIME_type*                                                    | HTML5 不支持。规定服务器接收到的文件的类型。（文件是通过文件上传提交的）        |
+| [accept-charset](https://www.runoob.com/tags/att-form-accept-charset.html)          | *character_set*                                                | 规定服务器可处理的表单数据字符集。                                              |
+| [action](https://www.runoob.com/tags/att-form-action.html)                          | *URL*                                                          | 规定当提交表单时向何处发送表单数据。                                            |
+| [autocomplete](https://www.runoob.com/tags/att-form-autocomplete.html)**New** | on off                                                           | 规定是否启用表单的自动完成功能。                                                |
+| [enctype](https://www.runoob.com/tags/att-form-enctype.html)                        | application/x-www-form-urlencoded multipart/form-data text/plain | 规定在向服务器发送表单数据之前如何对其进行编码。（适用于 method="post" 的情况） |
+| [method](https://www.runoob.com/tags/att-form-method.html)                          | get post                                                         | 规定用于发送表单数据的 HTTP 方法。                                              |
+| [name](https://www.runoob.com/tags/att-form-name.html)                              | *text*                                                         | 规定表单的名称。                                                                |
+| [novalidate](https://www.runoob.com/tags/att-form-novalidate.html)**New**     | novalidate                                                       | 如果使用该属性，则提交表单时不进行验证。                                        |
+| [target](https://www.runoob.com/tags/att-form-target.html)                          | _blank _self _parent _top                                        | 规定在何处打开 action URL。                                                     |
+
 ### input
 
 > - button、checkbox、radio、submit、image
@@ -981,62 +878,65 @@ HTML表单用于收集不同类型的用户输入
 - button（按钮） 、checkbox（复选框） 、radio（单选框） 、reset、submit 、image (图像作为提交按钮)
 - color （拾色器）
 - date（date 控件（包括年、月、日，不包括时间）） 、datetime （ date 和 time 控件（包括年、月、日、时、分、秒、几分之一秒，基于 UTC 时区））、datetime-local （ date 和 time 控件（包括年、月、日、时、分、秒、几分之一秒，不带时区））、time（用于输入时间的控件（不带时区）） 、month ( month 和 year 控件（不带时区）)、week( week 和 year 控件（不带时区）)
-- email 、search、tel 用于输入电话号码的字段、text 、 url、password 
+- email 、search、tel 用于输入电话号码的字段、text 、 url、password
 - file (文件选择字段和 "浏览..." 按钮，供文件上传)
 - hidden (隐藏输入字段)
 - number (用于输入数字的字段)、range 用于精确值不重要的输入数字的控件（比如 slider 控件） 滑动控件
 
-	- [max](https://www.runoob.com/tags/att-input-max.html) - 规定允许的最大值。
-	- [min](https://www.runoob.com/tags/att-input-min.html) - 规定允许的最小值。
-	- [step](https://www.runoob.com/tags/att-input-step.html) - 规定合法数字间隔。
-	- [value](https://www.runoob.com/tags/att-input-value.html) - 规定默认值。
+  - [max](https://www.runoob.com/tags/att-input-max.html) - 规定允许的最大值。
+  - [min](https://www.runoob.com/tags/att-input-min.html) - 规定允许的最小值。
+  - [step](https://www.runoob.com/tags/att-input-step.html) - 规定合法数字间隔。
+  - [value](https://www.runoob.com/tags/att-input-value.html) - 规定默认值。
 
-| 属性                                                         | 值                                                           | 描述                                                         |
-| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [accept](https://www.runoob.com/tags/att-input-accept.html)  | audio/* video/* image/* *MIME_type*                          | 规定通过文件上传来提交的文件的类型。 (只针对type="file")     |
-| [align](https://www.runoob.com/tags/att-input-align.html)    | left right top middle bottom                                 | HTML5已废弃，不赞成使用。规定图像输入的对齐方式。 (只针对type="image") |
-| [alt](https://www.runoob.com/tags/att-input-alt.html)        | *text*                                                       | 定义图像输入的替代文本。 (只针对type="image")                |
-| [autocomplete](https://www.runoob.com/tags/att-input-autocomplete.html)**New** | on off                                                       | autocomplete 属性规定 <input> 元素输入字段是否应该启用自动完成功能。 |
-| [autofocus](https://www.runoob.com/tags/att-input-autofocus.html)**New** | autofocus                                                    | 属性规定当页面加载时 <input> 元素应该自动获得焦点。          |
-| [checked](https://www.runoob.com/tags/att-input-checked.html) | checked                                                      | checked 属性规定在页面加载时应该被预先选定的 <input> 元素。 (只针对 type="checkbox" 或者 type="radio") |
-| [disabled](https://www.runoob.com/tags/att-input-disabled.html) | disabled                                                     | disabled 属性规定应该禁用的 <input> 元素。                   |
-| [form](https://www.runoob.com/tags/att-input-form.html)**New** | *form_id*                                                    | form 属性规定 <input> 元素所属的一个或多个表单。             |
-| [formaction](https://www.runoob.com/tags/att-input-formaction.html)**New** | *URL*                                                        | 属性规定当表单提交时处理输入控件的文件的 URL。(只针对 type="submit" 和 type="image") |
-| [formenctype](https://www.runoob.com/tags/att-input-formenctype.html)**New** | application/x-www-form-urlencoded multipart/form-data text/plain | 属性规定当表单数据提交到服务器时如何编码(只适合 type="submit" 和 type="image")。 |
-| [formmethod](https://www.runoob.com/tags/att-input-formmethod.html)**New** | get post                                                     | 定义发送表单数据到 action URL 的 HTTP 方法。 (只适合 type="submit" 和 type="image") |
-| [formnovalidate](https://www.runoob.com/tags/att-input-formnovalidate.html)**New** | formnovalidate                                               | formnovalidate 属性覆盖 <form> 元素的 novalidate 属性。      |
-| [formtarget](https://www.runoob.com/tags/att-input-formtarget.html)**New** | _blank _self _parent _top *framename*                        | 规定表示提交表单后在哪里显示接收到响应的名称或关键词。(只适合 type="submit" 和 type="image") |
-| [height](https://www.runoob.com/tags/att-input-height.html)**New** | *pixels*                                                     | 规定 <input>元素的高度。(只针对type="image")                 |
-| [list](https://www.runoob.com/tags/att-input-list.html)**New** | *datalist_id*                                                | 属性引用 <datalist> 元素，其中包含 <input> 元素的预定义选项。 |
-| [max](https://www.runoob.com/tags/att-input-max.html)**New** | *number date*                                                | 属性规定 <input> 元素的最大值。                              |
-| [maxlength](https://www.runoob.com/tags/att-input-maxlength.html) | *number*                                                     | 属性规定 <input> 元素中允许的最大字符数。                    |
-| [min](https://www.runoob.com/tags/att-input-min.html)**New** | *number date*                                                | 属性规定 <input>元素的最小值。                               |
-| [multiple](https://www.runoob.com/tags/att-input-multiple.html)**New** | multiple                                                     | 属性规定允许用户输入到 <input> 元素的多个值。                |
-| [name](https://www.runoob.com/tags/att-input-name.html)      | *text*                                                       | name 属性规定 <input> 元素的名称。                           |
-| [pattern](https://www.runoob.com/tags/att-input-pattern.html)**New** | *regexp*                                                     | pattern 属性规定用于验证 <input> 元素的值的正则表达式。      |
-| [placeholder](https://www.runoob.com/tags/att-input-placeholder.html)**New** | *text*                                                       | placeholder 属性规定可描述输入 <input> 字段预期值的简短的提示信息 。 |
-| [readonly](https://www.runoob.com/tags/att-input-readonly.html) | readonly                                                     | readonly 属性规定输入字段是只读的。                          |
-| [required](https://www.runoob.com/tags/att-input-required.html)**New** | required                                                     | 属性规定必需在提交表单之前填写输入字段。                     |
-| [size](https://www.runoob.com/tags/att-input-size.html)      | *number*                                                     | size 属性规定以字符数计的 <input> 元素的可见宽度。           |
-| [src](https://www.runoob.com/tags/att-input-src.html)        | *URL*                                                        | src 属性规定显示为提交按钮的图像的 URL。 (只针对 type="image") |
-| [step](https://www.runoob.com/tags/att-input-step.html)**New** | *number*                                                     | step 属性规定 <input> 元素的合法数字间隔。                   |
-| [type](https://www.runoob.com/tags/att-input-type.html)      | button checkbox color date datetime datetime-local email file hidden image month number password radio range reset search submit tel text time url week | type 属性规定要显示的 <input> 元素的类型。                   |
-| [value](https://www.runoob.com/tags/att-input-value.html)    | *text*                                                       | 指定 <input> 元素 value 的值。                               |
-| [width](https://www.runoob.com/tags/att-input-width.html)**New** | *pixels*                                                     | width 属性规定 <input> 元素的宽度。 (只针对type="image")     |
+| 属性                                                                                  | 值                                                                                                                                                      | 描述                                                                                                       |
+| :------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------- |
+| [accept](https://www.runoob.com/tags/att-input-accept.html)                              | audio/* video/* image/**MIME_type*                                                                                                                    | 规定通过文件上传来提交的文件的类型。 (只针对type="file")                                                   |
+| [align](https://www.runoob.com/tags/att-input-align.html)                                | left right top middle bottom                                                                                                                            | HTML5已废弃，不赞成使用。规定图像输入的对齐方式。 (只针对type="image")                                     |
+| [alt](https://www.runoob.com/tags/att-input-alt.html)                                    | *text*                                                                                                                                                | 定义图像输入的替代文本。 (只针对type="image")                                                              |
+| [autocomplete](https://www.runoob.com/tags/att-input-autocomplete.html)**New**     | on off                                                                                                                                                  | autocomplete 属性规定 `<input>` 元素输入字段是否应该启用自动完成功能。                                   |
+| [autofocus](https://www.runoob.com/tags/att-input-autofocus.html)**New**           | autofocus                                                                                                                                               | 属性规定当页面加载时 `<input>` 元素应该自动获得焦点。                                                    |
+| [checked](https://www.runoob.com/tags/att-input-checked.html)                            | checked                                                                                                                                                 | checked 属性规定在页面加载时应该被预先选定的 `<input>` 元素。 (只针对 type="checkbox" 或者 type="radio") |
+| [disabled](https://www.runoob.com/tags/att-input-disabled.html)                          | disabled                                                                                                                                                | disabled 属性规定应该禁用的 `<input>` 元素。                                                             |
+| [form](https://www.runoob.com/tags/att-input-form.html)**New**                     | *form_id*                                                                                                                                             | form 属性规定 `<input>` 元素所属的一个或多个表单。                                                       |
+| [formaction](https://www.runoob.com/tags/att-input-formaction.html)**New**         | *URL*                                                                                                                                                 | 属性规定当表单提交时处理输入控件的文件的 URL。(只针对 type="submit" 和 type="image")                       |
+| [formenctype](https://www.runoob.com/tags/att-input-formenctype.html)**New**       | application/x-www-form-urlencoded multipart/form-data text/plain                                                                                        | 属性规定当表单数据提交到服务器时如何编码(只适合 type="submit" 和 type="image")。                           |
+| [formmethod](https://www.runoob.com/tags/att-input-formmethod.html)**New**         | get post                                                                                                                                                | 定义发送表单数据到 action URL 的 HTTP 方法。 (只适合 type="submit" 和 type="image")                        |
+| [formnovalidate](https://www.runoob.com/tags/att-input-formnovalidate.html)**New** | formnovalidate                                                                                                                                          | formnovalidate 属性覆盖 `<form>` 元素的 novalidate 属性。                                                |
+| [formtarget](https://www.runoob.com/tags/att-input-formtarget.html)**New**         | _blank _self _parent _top*framename*                                                                                                                  | 规定表示提交表单后在哪里显示接收到响应的名称或关键词。(只适合 type="submit" 和 type="image")               |
+| [height](https://www.runoob.com/tags/att-input-height.html)**New**                 | *pixels*                                                                                                                                              | 规定 `<input>`元素的高度。(只针对type="image")                                                           |
+| [list](https://www.runoob.com/tags/att-input-list.html)**New**                     | *datalist_id*                                                                                                                                         | 属性引用 `<datalist>` 元素，其中包含 `<input>` 元素的预定义选项。                                      |
+| [max](https://www.runoob.com/tags/att-input-max.html)**New**                       | *number date*                                                                                                                                         | 属性规定 `<input>` 元素的最大值。                                                                        |
+| [maxlength](https://www.runoob.com/tags/att-input-maxlength.html)                        | *number*                                                                                                                                              | 属性规定 `<input>` 元素中允许的最大字符数。                                                              |
+| [min](https://www.runoob.com/tags/att-input-min.html)**New**                       | *number date*                                                                                                                                         | 属性规定 `<input>`元素的最小值。                                                                         |
+| [multiple](https://www.runoob.com/tags/att-input-multiple.html)**New**             | multiple                                                                                                                                                | 属性规定允许用户输入到 `<input>` 元素的多个值。                                                          |
+| [name](https://www.runoob.com/tags/att-input-name.html)                                  | *text*                                                                                                                                                | name 属性规定 `<input>` 元素的名称。                                                                     |
+| [pattern](https://www.runoob.com/tags/att-input-pattern.html)**New**               | *regexp*                                                                                                                                              | pattern 属性规定用于验证 `<input>` 元素的值的正则表达式。                                                |
+| [placeholder](https://www.runoob.com/tags/att-input-placeholder.html)**New**       | *text*                                                                                                                                                | placeholder 属性规定可描述输入 `<input>` 字段预期值的简短的提示信息 。                                   |
+| [readonly](https://www.runoob.com/tags/att-input-readonly.html)                          | readonly                                                                                                                                                | readonly 属性规定输入字段是只读的。                                                                        |
+| [required](https://www.runoob.com/tags/att-input-required.html)**New**             | required                                                                                                                                                | 属性规定必需在提交表单之前填写输入字段。                                                                   |
+| [size](https://www.runoob.com/tags/att-input-size.html)                                  | *number*                                                                                                                                              | size 属性规定以字符数计的 `<input>` 元素的可见宽度。                                                     |
+| [src](https://www.runoob.com/tags/att-input-src.html)                                    | *URL*                                                                                                                                                 | src 属性规定显示为提交按钮的图像的 URL。 (只针对 type="image")                                             |
+| [step](https://www.runoob.com/tags/att-input-step.html)**New**                     | *number*                                                                                                                                              | step 属性规定 `<input>` 元素的合法数字间隔。                                                             |
+| [type](https://www.runoob.com/tags/att-input-type.html)                                  | button checkbox color date datetime datetime-local email file hidden image month number password radio range reset search submit tel text time url week | type 属性规定要显示的 `<input>` 元素的类型。                                                             |
+| [value](https://www.runoob.com/tags/att-input-value.html)                                | *text*                                                                                                                                                | 指定 `<input>` 元素 value 的值。                                                                         |
+| [width](https://www.runoob.com/tags/att-input-width.html)**New**                   | *pixels*                                                                                                                                              | width 属性规定 `<input>` 元素的宽度。 (只针对type="image")                                               |
+
 ### textarea
-| 属性                                                         | 值        | 描述                                             |
-| :----------------------------------------------------------- | :-------- | :----------------------------------------------- |
-| [autofocus](https://www.runoob.com/tags/att-textarea-autofocus.html)**New** | autofocus | 规定当页面加载时，文本区域自动获得焦点。         |
-| [cols](https://www.runoob.com/tags/att-textarea-cols.html)   | *number*  | 规定文本区域内可见的宽度。                       |
-| [disabled](https://www.runoob.com/tags/att-textarea-disabled.html) | disabled  | 规定禁用文本区域。                               |
-| [form](https://www.runoob.com/tags/att-textarea-form.html)**New** | *form_id* | 定义文本区域所属的一个或多个表单。               |
-| [maxlength](https://www.runoob.com/tags/att-textarea-maxlength.html)**New** | *number*  | 规定文本区域允许的最大字符数。                   |
-| [name](https://www.runoob.com/tags/att-textarea-name.html)   | *text*    | 规定文本区域的名称。                             |
+
+| 属性                                                                               | 值          | 描述                                             |
+| :--------------------------------------------------------------------------------- | :---------- | :----------------------------------------------- |
+| [autofocus](https://www.runoob.com/tags/att-textarea-autofocus.html)**New**     | autofocus   | 规定当页面加载时，文本区域自动获得焦点。         |
+| [cols](https://www.runoob.com/tags/att-textarea-cols.html)                            | *number*  | 规定文本区域内可见的宽度。                       |
+| [disabled](https://www.runoob.com/tags/att-textarea-disabled.html)                    | disabled    | 规定禁用文本区域。                               |
+| [form](https://www.runoob.com/tags/att-textarea-form.html)**New**               | *form_id* | 定义文本区域所属的一个或多个表单。               |
+| [maxlength](https://www.runoob.com/tags/att-textarea-maxlength.html)**New**     | *number*  | 规定文本区域允许的最大字符数。                   |
+| [name](https://www.runoob.com/tags/att-textarea-name.html)                            | *text*    | 规定文本区域的名称。                             |
 | [placeholder](https://www.runoob.com/tags/att-textarea-placeholder.html)**New** | *text*    | 规定一个简短的提示，描述文本区域期望的输入值。   |
-| [readonly](https://www.runoob.com/tags/att-textarea-readonly.html) | readonly  | 规定文本区域为只读。                             |
-| [required](https://www.runoob.com/tags/att-textarea-required.html)**New** | required  | 规定文本区域是必需的/必填的。                    |
-| [rows](https://www.runoob.com/tags/att-textarea-rows.html)   | *number*  | 规定文本区域内可见的行数。                       |
-| [wrap](https://www.runoob.com/tags/att-textarea-wrap.html)**New** | hard soft | 规定当提交表单时，文本区域中的文本应该怎样换行。 |
+| [readonly](https://www.runoob.com/tags/att-textarea-readonly.html)                    | readonly    | 规定文本区域为只读。                             |
+| [required](https://www.runoob.com/tags/att-textarea-required.html)**New**       | required    | 规定文本区域是必需的/必填的。                    |
+| [rows](https://www.runoob.com/tags/att-textarea-rows.html)                            | *number*  | 规定文本区域内可见的行数。                       |
+| [wrap](https://www.runoob.com/tags/att-textarea-wrap.html)**New**               | hard soft   | 规定当提交表单时，文本区域中的文本应该怎样换行。 |
+
 <textarea id="story" name="story"
           rows="5" cols="33">
 这是一个很长的故事。
@@ -1046,48 +946,52 @@ HTML表单用于收集不同类型的用户输入
 
 #### select
 
-| 属性                                                         | 值        | 描述                                               |
-| :----------------------------------------------------------- | :-------- | :------------------------------------------------- |
-| [autofocus](https://www.runoob.com/tags/att-select-autofocus.html)**New** | autofocus | 规定在页面加载时下拉列表自动获得焦点。             |
-| [disabled](https://www.runoob.com/tags/att-select-disabled.html) | disabled  | 当该属性为 true 时，会禁用下拉列表。               |
-| [form](https://www.runoob.com/tags/att-select-form.html)**New** | *form_id* | 定义 select 字段所属的一个或多个表单。             |
-| [multiple](https://www.runoob.com/tags/att-select-multiple.html) | multiple  | 当该属性为 true 时，可选择多个选项。               |
-| [name](https://www.runoob.com/tags/att-select-name.html)     | *text*    | 定义下拉列表的名称。                               |
-| [required](https://www.runoob.com/tags/att-select-required.html)**New** | required  | 规定用户在提交表单前必须选择一个下拉列表中的选项。 |
-| [size](https://www.runoob.com/tags/att-select-size.html)     | *number*  | 规定下拉列表中可见选项的数目。                     |
+| 属性                                                                         | 值          | 描述                                               |
+| :--------------------------------------------------------------------------- | :---------- | :------------------------------------------------- |
+| [autofocus](https://www.runoob.com/tags/att-select-autofocus.html)**New** | autofocus   | 规定在页面加载时下拉列表自动获得焦点。             |
+| [disabled](https://www.runoob.com/tags/att-select-disabled.html)                | disabled    | 当该属性为 true 时，会禁用下拉列表。               |
+| [form](https://www.runoob.com/tags/att-select-form.html)**New**           | *form_id* | 定义 select 字段所属的一个或多个表单。             |
+| [multiple](https://www.runoob.com/tags/att-select-multiple.html)                | multiple    | 当该属性为 true 时，可选择多个选项。               |
+| [name](https://www.runoob.com/tags/att-select-name.html)                        | *text*    | 定义下拉列表的名称。                               |
+| [required](https://www.runoob.com/tags/att-select-required.html)**New**   | required    | 规定用户在提交表单前必须选择一个下拉列表中的选项。 |
+| [size](https://www.runoob.com/tags/att-select-size.html)                        | *number*  | 规定下拉列表中可见选项的数目。                     |
+
 #### optgroup
 
-| 属性                                                         | 值       | 描述               |
-| :----------------------------------------------------------- | :------- | :----------------- |
+| 属性                                                            | 值       | 描述               |
+| :-------------------------------------------------------------- | :------- | :----------------- |
 | [disabled](https://www.runoob.com/tags/att-optgroup-disabled.html) | disabled | 规定禁用该选项组。 |
-| [label](https://www.runoob.com/tags/att-optgroup-label.html) | *text*   | 为选项组规定描述。 |
+| [label](https://www.runoob.com/tags/att-optgroup-label.html)       | *text* | 为选项组规定描述。 |
+
 #### option
 
-| 属性                                                         | 值       | 描述                                             |
-| :----------------------------------------------------------- | :------- | :----------------------------------------------- |
+| 属性                                                          | 值       | 描述                                             |
+| :------------------------------------------------------------ | :------- | :----------------------------------------------- |
 | [disabled](https://www.runoob.com/tags/att-option-disabled.html) | disabled | 规定此选项应在首次加载时被禁用。                 |
-| [label](https://www.runoob.com/tags/att-option-label.html)   | *text*   | 定义当使用 <optgroup> 时所使用的标注。           |
+| [label](https://www.runoob.com/tags/att-option-label.html)       | *text* | 定义当使用 `<optgroup>` 时所使用的标注。       |
 | [selected](https://www.runoob.com/tags/att-option-selected.html) | selected | 规定选项（在首次显示在列表中时）表现为选中状态。 |
-| [value](https://www.runoob.com/tags/att-option-value.html)   | *text*   | 定义送往服务器的选项值。                         |
+| [value](https://www.runoob.com/tags/att-option-value.html)       | *text* | 定义送往服务器的选项值。                         |
+
 ### button
 
-| 属性                                                         | 值                                                           | 描述                                                         |
-| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [autofocus](https://www.runoob.com/tags/att-button-autofocus.html)**New** | autofocus                                                    | 规定当页面加载时按钮应当自动地获得焦点。                     |
-| [disabled](https://www.runoob.com/tags/att-button-disabled.html) | disabled                                                     | 规定应该禁用该按钮。                                         |
-| [form](https://www.runoob.com/tags/att-button-form.html)**New** | *form_id*                                                    | 规定按钮属于一个或多个表单。                                 |
-| [formaction](https://www.runoob.com/tags/att-button-formaction.html)**New** | *URL*                                                        | 规定当提交表单时向何处发送表单数据。覆盖 form 元素的 action 属性。该属性与 type="submit" 配合使用。 |
-| [formenctype](https://www.runoob.com/tags/att-button-formenctype.html)**New** | application/x-www-form-urlencoded multipart/form-data text/plain | 规定在向服务器发送表单数据之前如何对其进行编码。覆盖 form 元素的 enctype 属性。该属性与 type="submit" 配合使用。 |
-| [formmethod](https://www.runoob.com/tags/att-button-formmethod.html)**New** | get post                                                     | 规定用于发送表单数据的 HTTP 方法。覆盖 form 元素的 method 属性。该属性与 type="submit" 配合使用。 |
-| [formnovalidate](https://www.runoob.com/tags/att-button-formnovalidate.html)**New** | formnovalidate                                               | 如果使用该属性，则提交表单时不进行验证。覆盖 form 元素的 novalidate 属性。该属性与 type="submit" 配合使用。 |
-| [formtarget](https://www.runoob.com/tags/att-button-formtarget.html)**New** | _blank _self _parent _top *framename*                        | 规定在何处打开 action URL。覆盖 form 元素的 target 属性。该属性与 type="submit" 配合使用。 |
-| [name](https://www.runoob.com/tags/att-button-name.html)     | *name*                                                       | 规定按钮的名称。                                             |
-| [type](https://www.runoob.com/tags/att-button-type.html)     | button reset submit                                          | 规定按钮的类型。                                             |
-| [value](https://www.runoob.com/tags/att-button-value.html)   | *text*                                                       | 规定按钮的初始值。可由脚本进行修改。                         |
+| 属性                                                                                   | 值                                                               | 描述                                                                                                             |
+| :------------------------------------------------------------------------------------- | :--------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
+| [autofocus](https://www.runoob.com/tags/att-button-autofocus.html)**New**           | autofocus                                                        | 规定当页面加载时按钮应当自动地获得焦点。                                                                         |
+| [disabled](https://www.runoob.com/tags/att-button-disabled.html)                          | disabled                                                         | 规定应该禁用该按钮。                                                                                             |
+| [form](https://www.runoob.com/tags/att-button-form.html)**New**                     | *form_id*                                                      | 规定按钮属于一个或多个表单。                                                                                     |
+| [formaction](https://www.runoob.com/tags/att-button-formaction.html)**New**         | *URL*                                                          | 规定当提交表单时向何处发送表单数据。覆盖 form 元素的 action 属性。该属性与 type="submit" 配合使用。              |
+| [formenctype](https://www.runoob.com/tags/att-button-formenctype.html)**New**       | application/x-www-form-urlencoded multipart/form-data text/plain | 规定在向服务器发送表单数据之前如何对其进行编码。覆盖 form 元素的 enctype 属性。该属性与 type="submit" 配合使用。 |
+| [formmethod](https://www.runoob.com/tags/att-button-formmethod.html)**New**         | get post                                                         | 规定用于发送表单数据的 HTTP 方法。覆盖 form 元素的 method 属性。该属性与 type="submit" 配合使用。                |
+| [formnovalidate](https://www.runoob.com/tags/att-button-formnovalidate.html)**New** | formnovalidate                                                   | 如果使用该属性，则提交表单时不进行验证。覆盖 form 元素的 novalidate 属性。该属性与 type="submit" 配合使用。      |
+| [formtarget](https://www.runoob.com/tags/att-button-formtarget.html)**New**         | _blank _self _parent _top*framename*                           | 规定在何处打开 action URL。覆盖 form 元素的 target 属性。该属性与 type="submit" 配合使用。                       |
+| [name](https://www.runoob.com/tags/att-button-name.html)                                  | *name*                                                         | 规定按钮的名称。                                                                                                 |
+| [type](https://www.runoob.com/tags/att-button-type.html)                                  | button reset submit                                              | 规定按钮的类型。                                                                                                 |
+| [value](https://www.runoob.com/tags/att-button-value.html)                                | *text*                                                         | 规定按钮的初始值。可由脚本进行修改。                                                                             |
+
 ```html
 // 单选按钮 和 复选框 都要设置相同的 name 和 value就是传递选中的值
 通过name 分组不同的单选按钮组 或者 多选按钮组
-单选按钮(Radio Buttons) 
+单选按钮(Radio Buttons)
 <form>
 <input type="radio" name="sex" value="male">Male<br>
 <input type="radio" name="sex" value="female">Female
@@ -1147,18 +1051,22 @@ label 的使用
 <input type="submit">
 </form>
 ```
-> `<button>` 和 `input:button` 和`input:submit`的区别：
+
+> `<button>` 和 `input:button` 和 `input:submit`的区别：
 >
 > `<button> `标签定义一个按钮。
 >
 > 在 `<button> `元素内部，您可以放置内容，比如文本或图像。这是该元素与使用 `<input> `元素创建的按钮之间的不同之处。
 >
-> **提示：**请始终为 `<button>` 元素规定 type 属性。不同的浏览器对` <button> `元素的 type 属性使用不同的默认值。
+> **提示：**请始终为 `<button>` 元素规定 type 属性。不同的浏览器对 `<button>`元素的 type 属性使用不同的默认值。
+
 ## 框架
 
 `iframe 语法`
+
 - `<iframe> `标签规定一个内联框架。
 - 一个内联框架被用来在当前6 HTML 文档中嵌入另一个文档。
+
 <iframe src="https://www.baidu.com/" height="500px" frameborder="0" seamless="seamless"></iframe>
 ```html
 <iframe src="https://www.bing.com/" height="500px" frameborder="0" seamless="seamless"></iframe>
@@ -1192,206 +1100,6 @@ label 的使用
 | sandbox         | ""<br/>allow-forms<br/>allow-same-origin<br/>allow-scripts<br/>allow-top-navigation | 对 `<iframe> `的内容定义一系列额外的限制。                   |
 | seamless        | seamless                                                     | 规定 `<iframe>` 看起来像是父文档中的一部分。                 |
 
-HTML5 不支持
-
-| 属性                      | 值                              | 描述                                                         |
-| ------------------------- | ------------------------------- | ------------------------------------------------------------ |
-| align                     |                                 | HTML 4.01 已废弃。 规定如何根据周围的元素来对齐 `<iframe>`。 |
-| frameborder               | 0、1                            | 是否显示 `<iframe>` 周围的边框。                             |
-| longdesc                  | *URL                            | 一个页面，该页面包含了有关 `<iframe> `的较长描述。           |
-| marginheight/ marginwidth | *pixels*                        | `<iframe> `的顶部和底部的边距、、规定 `<iframe>` 的顶部和底部的边距 |
-| scrolling                 | yes（显示）、no（不显示）、auto | 是否在 `<iframe> `中显示滚动条                               |
-
-`frameset标签` HTML5 不支持
-`<frameset>标签`在一个页面中设置一个或多个框架，用`frameset`代替`body`，不能出现在`body`标签中
-
-```html
-<frameset> // 建立框架的标记，将在其中定义各个框架
-    <frame src="menu.html"> // 指示框架显示内容URL地址
-    <frame src="content.html">
-</frameset>    
-```
-- 设置行列比例
-- 设置边框
-	- frameborder 设置边框
-	- framespacing 修改边框粗细
-	`frame`  
-- 设置名字 name
-- 设置滚动 
-	- noresize 设置禁止用户拖拉框架大小 不允许用户更改其尺寸
-	- scrolling 用于设置滚动条是否显示  设置滚动条是否显示
-	`<frame>` 标签中我们使用name属性命名每个框架，而不是内容页面
-```html
-<frameset rows="20%,*" border="2" frameboder="1" framespacing="2" rows="20%,*">
-	<frame name="title" src="title.html" noresize scrolling="no">
-	<frameset cols="30%,*" border="4" frameboder="1" framespacing="4" >
-    	<frame name="menu" src="menu.html">
-        <frame name="content" src="content.html">
-    </frameset>
-</frameset>    
-```
-## 颜色
-[RGB颜色对照表](https://tool.oschina.net/commons?type=3)
-### 颜色的表示方法
-- RGB 和 RGBA（Color RGBA）
-- HSL 和 HSLA 
-- 颜色名
-- 颜色值（十六进制颜色(Color HEX)）
-- 预定义/跨浏览器颜色名
-### 十六进制颜色值（Color HEX）
-组成：
-范围
-每种颜色的最小值是0（十六进制：#00）。最大值是255（十六进制：#FF）。
-十六进制：0~F
-> #000000  ~ #FFFFFF
->
-> - 6位数字或者字母  6位十六进制颜色值
-> - 不区分大小写
-> - 可以使用3位数字**3位十六进制颜色值**
-> - 三位数表示法为：#RGB，转换为6位数表示为：#RRGGBB
-### RGBA
-颜色 由红（R）、绿（G）、蓝 （B）混合而成
-> Red-Green-Blue-Alpha **“alpha”** 通道，运行对颜色值设置透明度。
-```css
-color: rgba(red, green, blue, alpha);
-H：Hue(色调)。0(或360)表示红色，120表示绿色，240表示蓝色，也可取其他数值来指定颜色。取值为：0 - 360
-S：Saturation(饱和度)。取值为：0.0% - 100.0%
-L：Lightness(亮度)。取值为：0.0% - 100.0%
-A：Alpha透明度。取值0~1之间。
-```
-### HSLA
-```
-hsla(hue, saturation, lightness, alpha)
-```
-常用颜色名和颜色值
-| 颜色名 | 颜色名 | 颜色十六进制（Color HEX） | 颜色RGBA(Color RGB) | 颜色HSLA(Color) |
-| ------ | ------ | ------------------------- | ------------------- | --------------- |
-| 黑色   | black  | #000000                   | rgb(0,0,0)          |                 |
-| 红色   | red    | #FF0000                   | rgb(255,0,0)        |                 |
-| 绿色   | green  | \#00FF00                  | rgb(0,255,0)        |                 |
-| 蓝色   | blue   | \#0000FF                  | rgb(0,0,255)        |                 |
-| 黄色   | yellow | #FFFF00                   | rgb(255,255,0)      |                 |
-| 青色   | cyan   | \#00FFFF                  | rgb(0,255,255)      |                 |
-| 紫色   | purple | \#FF00FF                  | rgb(0,255,255)      |                 |
-| 灰色   | gray   | #C0C0C0                   | rgb(192,192,192)    |                 |
-| 白色   | white  | #FFFFFF                   | rgb(255,255,255)    |                 |
-
-
-## 脚本
-- `script` 定义JS脚本
-- `<noscript> `定义不支持脚本浏览器的文本
-```html
-<script></script>
-<noscript>抱歉，你的浏览器不支持 JavaScript!</noscript>
-<script type="text/javascript" src="javascript.js"></script>
-```
-```js
-// 设置ES6模块
-<script type="moudle" src="main.js"></script>
-<script nomodule src="fallback.js"></script>
-
-async：该属性指定 JavaScript 代码为异步执行，不是造成阻塞效果，JavaScript 代码默认是同步执行。
-defer：该属性指定 JavaScript 代码不是立即执行，而是页面解析完成后执行。
-crossorigin：如果采用这个属性，就会采用跨域的方式加载外部脚本，即 HTTP 请求的头信息会加上origin字段。
-integrity：给出外部脚本的哈希值，防止脚本被篡改。只有哈希值相符的外部脚本，才会执行。
-nonce：一个密码随机数，由服务器在 HTTP 头信息里面给出，每次加载脚本都不一样。它相当于给出了内嵌脚本的白名单，只有在白名单内的脚本才能执行。
-referrerpolicy：HTTP 请求的Referer字段的处理方法。
-```
-
-## 单位
-
-长度单位
-| 单位               | 描述         |
-| ------------------ | ------------ |
-| px                 | 像素         |
-| em                 | 相对单位     |
-| rem                | 相对根的单位 |
-| %                  | 百分比       |
-| pt                 |              |
-| vh、vw、vmin、vmax | 视口单位     |
-## 字符
-
-[HTML特殊符号表](https://tool.chinaz.com/tools/htmlchar.aspx)
-HTML 中的预留字符必须被替换为字符实体。
-实体名称对大小敏感 
-
-| 示结果 | 描述        | 实体名称            | 实体编号  |
-| :----- | :---------- | :------------------ | :-------- |
-|        | 空格        | `&nbsp;`            | `&#160;`  |
-| <      | 小于号      | `&lt;`              | `&#60;`   |
-| >      | 大于号      | `&gt;`              | `&#62;`   |
-| &      | 和号        | `&amp;`             | `&#38;`   |
-| "      | 引号        | `&quot;`            | `&#34;`   |
-| '      | 撇号        | `&apos;` (IE不支持) | `&#39;`   |
-| ￠     | 分          | `&cent;`            | `&#162;`  |
-| £      | 镑          | `&pound;`           | `&#163;`  |
-| ¥      | 人民币/日元 | `&yen;`             | `&#165;`  |
-| €      | 欧元        | `&euro;`            | `&#8364;` |
-| §      | 小节        | `&sect; `           | `&#167;`  |
-| ©      | 版权        | `&copy;`            | `&#169;`  |
-| ®      | 注册商标    | `&reg;`             | `&#174; ` |
-| ™      | 商标        | `&trade;`           | `&#8482;` |
-| ×      | 乘号        | `&times; `          | `&#215; ` |
-| ÷      | 除号        | `&divide; `         | `&#247;`  |
-## 技巧
-
-```html
-// 点击关闭窗口
-<a href="javascript:top.window.close();">点击关闭窗口</a>
-// 去除主页右面的滚动条
-<body scroll="no">
-<body style="overflow-y:hidden">    
-// 不刷新页面的情况下刷新css    
-// 网页自动刷新    
-// refresh
-<meta http=equive="refesh" content="3">
-    <script>
-    	function refeshMain(){
-            document.location.reload()
-        }
-        setTimeout(refeshMain,2000)
-    </script>    
-// 网页标签icon   
-<link rel="Shortcut Icon" href="favicon.icon">    
-// 收藏夹显示出你的图标
-<link rel="Bookmark" href="favicon icon">  
-<inputstyle="imemode:disabled"> 关闭输入法    
-<body oncontextmenu="window.event.returnVale=false" // 屏蔽鼠标右键
-      onselectstart="return false" //取消选取
-      onpaste="return false" // 不准粘贴
-      oncopy="return false" // 防止复制
-      oncut="return false" //防止剪切
-      >
-// 防止被人frame
-if(top.location != self.location) top.location = self.locatio;
-    // 网页不能被另存为
-    <noscript>
-        <iframe src="*.html"></iframe>
-    </noscript>   
-    // 查看网页源代码
-    <input type="button" value="查看网页源代码" onclick="window.location = view-source:"+"http://www.baidu.com"">
-// 去掉图片链接点击后,图片周围的虚线
-<a href="#" onFocus="this.blur()">
-	<img src="logo.jpg" border="0"/>
-</a>
-// 电子邮件处理提交表单
-<form name="form" method="post" action="mailt***@**.com" enctype="text/plain">
-<input type="submit">
-</form>
-//子窗口刷新父窗口
-window.opener.location.reload()
-// Enter 键可以让光标移动到下一个输入框
-<input onkeydown="if(event.keyCode==13)event.keyCode=9">                
-```
-版权信息规范
-`Copyright/© + [dates] + [author/owner]    `
-- ©1995-2004 Macromedia, Inc. All rights reserved.
-- ©2004 Microsoft Corporation. All rights reserved.
-- Copyright © 2004 Adobe Systems Incorporated. All rights reserved.
-- ©1995-2004 Eric A. and Kathryn S. Meyer. All Rights Reserved.
-```html
-<span style="font-family:arial;">Copyright &copy; </span>
-```
 # HTML5
 
 > HTML 5与CSS 3权威指南 上册
@@ -1693,17 +1401,17 @@ IE8之前不支持用css的方法对尚未支持的结构元素，IE9以后支�
 ### 新增元素
 
 - 绘画元素  1个
-	- canvas 标签定义图形，比如图表和其他图像。该标签基于 JavaScript 的绘图 API
+  - canvas 标签定义图形，比如图表和其他图像。该标签基于 JavaScript 的绘图 API
 - 多媒体元素 5个
-	- audio 定义音频内容
-	- video  定义视频（video 或者 movie）
-	- source 定义多媒体资源 `<video>` 和`` <audio>``
-	- embed 定义嵌入的内容，比如插件。
-	- track 为诸如`` <video>`` 和`` <audio>`` 元素之类的媒介规定外部文本轨道。
+  - audio 定义音频内容
+  - video  定义视频（video 或者 movie）
+  - source 定义多媒体资源 `<video>` 和`` <audio>``
+  - embed 定义嵌入的内容，比如插件。
+  - track 为诸如`` <video>`` 和`` <audio>`` 元素之类的媒介规定外部文本轨道。
 - 新表单元素 3个
-	- datalish 定义选项列表。请与 input 元素配合使用该元素，来定义 input 可能的值。
-	- keygen 规定用于表单的密钥对生成器字段。
-	- output 定义不同类型的输出，比如脚本的输出。
+  - datalish 定义选项列表。请与 input 元素配合使用该元素，来定义 input 可能的值。
+  - keygen 规定用于表单的密钥对生成器字段。
+  - output 定义不同类型的输出，比如脚本的输出。
 
 ### `语义元素  `
 
@@ -1711,7 +1419,7 @@ IE8之前不支持用css的方法对尚未支持的结构元素，IE9以后支�
 
 
 无语义`div` 和 `span`
-![img](html.assets/uxcoAXn9IkZytL3.jpg)
+![img](/Users/administrator/Downloads/html.assets/uxcoAXn9IkZytL3.jpg)
 语义= 意义
 语义元素 = 有意义的元素
 语义标签提供了新的元素来创建更好的`页面结构`
@@ -1769,6 +1477,9 @@ IE8之前不支持用css的方法对尚未支持的结构元素，IE9以后支�
 
 汉 (Han)
 字 (zi)
+
+汉 (Han)
+字 (zi)
 <ruby>
 汉 <rp>(</rp><rt>Han</rt><rp>)</rp>
 字 <rp>(</rp><rt>zi</rt><rp>)</rp>
@@ -1779,6 +1490,7 @@ IE8之前不支持用css的方法对尚未支持的结构元素，IE9以后支�
 <p> - by Refsnes Data. All Rights Reserved.</p>
 <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
 </details>
+
 
 
   <meter value="2" min="0" max="10">2 out of 10</meter><br>
@@ -1958,11 +1670,11 @@ var c=document.getElementById("myCanvas");var ctx=c.getContext("2d");ctx.font="3
 
 - createLinearGradient(*x,y,x1,y1*) - 创建线条渐变
 - createRadialGradient(*x,y,r,x1,y1,r1*) - 创建一个径向/圆渐变
-	当我们使用渐变对象，必须使用两种或两种以上的停止颜色。
-	addColorStop()方法指定颜色停止，参数使用坐标来描述，可以是0至1.
-	使用渐变，设置fillStyle或strokeStyle的值为 渐变，然后绘制形状，如矩形，文本，或一条线。
-	使用 createLinearGradient():
-	线性渐变
+  当我们使用渐变对象，必须使用两种或两种以上的停止颜色。
+  addColorStop()方法指定颜色停止，参数使用坐标来描述，可以是0至1.
+  使用渐变，设置fillStyle或strokeStyle的值为 渐变，然后绘制形状，如矩形，文本，或一条线。
+  使用 createLinearGradient():
+  线性渐变
 
 ```js
 var c=document.getElementById("myCanvas");var ctx=c.getContext("2d");// 创建渐变var grd=ctx.createLinearGradient(0,0,200,0);grd.addColorStop(0,"red");grd.addColorStop(1,"white");// 填充渐变ctx.fillStyle=grd;ctx.fillRect(10,10,150,80);
@@ -2278,8 +1990,8 @@ object  param:`<object>`标签作用跟`<embed>`相似，也是插入外部资�
 HTML5本地存储的两个重要内容
 
 - Web Storage与本地数据库
-	- Web Srorage 存储机制 对HTML4中cookie存储机制的一个改善。由于cookie存储有很多缺点，HTML5不再使用它，转而使用改良后的Web Storage存储机制
-	- 本地数据库 使用它可以在客户端本地建立一个数据库，原本必须保存在服务器端数据库中的内容现在可以直接保存到客户端本地，这大大减轻了服务器端的负担，同时也加快了访问数据的速度
+  - Web Srorage 存储机制 对HTML4中cookie存储机制的一个改善。由于cookie存储有很多缺点，HTML5不再使用它，转而使用改良后的Web Storage存储机制
+  - 本地数据库 使用它可以在客户端本地建立一个数据库，原本必须保存在服务器端数据库中的内容现在可以直接保存到客户端本地，这大大减轻了服务器端的负担，同时也加快了访问数据的速度
 
 Web Storage  vs Cookie
 
@@ -2293,8 +2005,8 @@ Web Storage 是什么
 cookie 的缺点
 
 -  大小被限制在4kb
-- 带宽
-- 复杂性
+-  带宽
+-  复杂性
 
 
 
@@ -2425,10 +2137,12 @@ Web SQL 数据库可以在最新版的 Safari, Chrome 和 Opera 浏览器中工�
 以下是规范中定义的三个核心方法：
 
 1. **openDatabase**：这个方法使用现有的数据库或者新建的数据库创建一个数据库对象。
+
 2. **transaction**：这个方法让我们能够控制一个事务，以及基于这种情况执行提交或者回滚。
+
 3. **executeSql**：这个方法用于执行实际的 SQL 查询。
 
-	访问本地文件
+   访问本地文件
 
 ### indexedDB数据库
 
@@ -2572,7 +2286,7 @@ manifest文件
 - Permission denied - 用户不允许地理定位
 - Position unavailable - 无法获取当前位置
 - Timeout - 操作超时
-	百度获取经纬度的方法
+  百度获取经纬度的方法
 
 ```html
 <!DOCTYPE html><html><head>    <meta charset="utf-8" />    <title></title>    <!--引入百度 API，"ak=" 后面一串码是密钥，最好自己申请-->    <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=7a6QKaIilZftIMmKGAFLG7QT1GLfIncg"></script></head><body>    <input type="button" onclick="getLocation()" value="确认" />    <div id="position"></div>    <script type="text/javascript">    var x = document.getElementById('position');    function getLocation() {        // 创建百度地理位置实例，代替 navigator.geolocation        var geolocation = new BMap.Geolocation();        geolocation.getCurrentPosition(function(e) {            if(this.getStatus() == BMAP_STATUS_SUCCESS){                // 百度 geolocation 的经纬度属性不同，此处是 point.lat 而不是 coords.latitude                x.innerHTML = '纬度：' + e.point.lat + '<br/>经度：' + e.point.lng;            } else {                x.innerHTML = 'failed' + this.getStatus();            }        });    }    </script></body></html>
@@ -2622,8 +2336,8 @@ web worker 是运行在`后台的JavaScript` ，独立于其他脚本,不会影�
 当在HTML页面中执行脚本时，页面的状态是不可响应的，直到脚本已完成
 
 - 页面刷新，workers 文件也会刷新
-	Internet Explorer 10, Firefox, Chrome, Safari 和 Opera 都支持Web workers.
-	Web Workers 和 DOM，Web workers 位于外部文件中，无法访问window对象 、document对象和 parent 对象
+  Internet Explorer 10, Firefox, Chrome, Safari 和 Opera 都支持Web workers.
+  Web Workers 和 DOM，Web workers 位于外部文件中，无法访问window对象 、document对象和 parent 对象
 
 ```js
 // 创建 web worker 文件 workers.jsvar i = 0;function timeCount(){    i++;    postMessage(i);    setTimeout("timedCount()",500);}timeCount();
@@ -2652,41 +2366,3 @@ requestAnimateFrame
 Mutation Observer
 JavaScript Promise
 Beacon API
-
-
-
-# 网页结构
-
-- header 页头		
-- main 页面主体
-- footer 页尾		
-- content/container 内容
-- container 容器
-- nav  导航
-  - miannav 主导航
-  - subnav 子导航
-  - topnav 顶导航
-  - sidebar 边导航			
-  - leftsidebar 左导航
-  - rightsidebar 右导航
-- menu 菜单
-  - submenu 子菜单
-- title 标题
-- summary 摘要
-- sidebar 侧栏
-- column 栏目
-- wrapper 页面外围控制
-- logo 标志
-- banner 广告
-- login 登陆
-- loginbar 登录条
-- register 注册
-- search 搜索
-- shop 功能区
-- title 标题
-- left center right 左中右
-
-
-
-
-
