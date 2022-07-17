@@ -2401,6 +2401,14 @@ import
 
 - Promise.allSettled
 
+# es2021
+
+
+
+# es2022
+
+
+
 # es提案
 
 ## 声明
